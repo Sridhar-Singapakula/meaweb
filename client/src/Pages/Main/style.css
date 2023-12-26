@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Outfit:wght@100;200;400;600&family=Poppins:wght@300&family=Quicksand&family=Roboto+Slab:wght@600;700&family=Roboto:wght@300;500&family=Whisper&display=swap');
 body {
     font-family: "Open Sans", sans-serif;
     color: #444444;
+    background-color: black;
   }
   
   a {
@@ -21,7 +23,15 @@ body {
   h6 {
     font-family: "Raleway", sans-serif;
   }
-  
+  ._h4{
+    color: rgb(218, 192, 163);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-style: bold ;
+    line-height: 86px;
+     font-size: 35px;
+  }
+ 
 
 
   
@@ -71,7 +81,7 @@ body {
   # Header
   --------------------------------------------------------------*/
   #header {
-    background: #221D3D;
+    background: #1b1b1b;
     transition: all 0.5s;
     z-index: 997;
     padding: 10px 0;
@@ -100,6 +110,36 @@ body {
   
   #header .logo img {
     max-height: 65px;
+    padding:0px;
+  }
+  #hero a {
+    margin-top: 50px;
+    font-size: 28px;
+    display: inline-block;
+    background: #2b2b2b;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 4px;
+    text-align: center;
+    width: 46px;
+    margin-right: 20px;
+    height: 46px;
+    transition: 0.3s;
+  }
+  #hero a:hover{
+    background-color: white;
+  }
+  
+  .photo_gallery{
+    margin-top: -100px;
+  }
+  .gallery_{
+    width:100%;
+    height:480px;
+    float:left;
+    object-fit: cover;
   }
   
   /*--------------------------------------------------------------
@@ -187,7 +227,7 @@ body {
     font-family: "Raleway", sans-serif;
     font-size: 15px;
     font-weight: 600;
-    color: #F9D342;
+    color: #EEEEEE;
     white-space: nowrap;
     transition: 0.3s;
   }
@@ -203,7 +243,7 @@ body {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #eeeced;
+    color: #DAC0A3;
   }
   
   .navbar .dropdown ul {
@@ -273,7 +313,7 @@ body {
   * Mobile Navigation 
   */
   .mobile-nav-toggle {
-    color: #111111;
+    color: white;
     font-size: 28px;
     cursor: pointer;
     display: none;
@@ -385,15 +425,16 @@ body {
     width: 100%;
     height: 100vh;
     background: url(https://wallpaperaccess.com/full/1893622.jpg
-    ) top center no-repeat;
+)  no-repeat;
     background-size: cover;
     position: relative;
+    top:-130px;
     padding-top: 82px;
   }
   
   #hero:before {
     content: "";
-    background: rgba(5, 1, 1, 0.6);
+    background:linear-gradient(90deg, rgba(0, 0, 0, 0.879), rgba(13, 18, 73, 0.3));
     position: absolute;
     bottom: 0;
     top: 0;
@@ -402,16 +443,23 @@ body {
   }
   
   #hero h1 {
-    margin: 0;
+    margin-top: 90px;
     font-size: 48px;
+    font-family: 'Roboto Slab', serif;
+    line-height: 60px;
     font-weight: 700;
     color: #fff;
   }
-  
+  @media(min-width:1000px){
+    #hero h1{
+      width:1000px;
+    }
+  }
   #hero h2 {
     color: #fff;
+    font-family: 'Roboto Slab', serif;
     margin: 10px 0 0 0;
-    font-size: 24px;
+    font-size: 45px;
   }
   
   #hero .btn-get-started, .btn-get-started{
@@ -445,8 +493,7 @@ body {
     }
   
     #hero h2 {
-      font-size: 18px;
-      line-height: 24px;
+      font-size: 28px;
     }
   }
   
