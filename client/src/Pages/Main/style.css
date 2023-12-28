@@ -162,8 +162,33 @@ body {
     background: #111111;
     color: #fff;
   }
+  
+  #navbar.mobile-nav-open ul {
+    width:200px;
+    background: white;
+    display: block;
+    animation: slideIn 0.5s ease-in-out backwards;
+  }
+
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+  }
+
   .mobile-nav-toggle {
     display: none;
+  }
+  #navbar.mobile-nav-open ul {
+    width:200px;
+    background: white;
+    display: block;
+    animation: slideIn 0.5s ease-in-out backwards;
   }
   @media (max-width: 768px) {
     .navbar ul {
@@ -227,7 +252,7 @@ body {
     font-family: "Raleway", sans-serif;
     font-size: 15px;
     font-weight: 600;
-    color: #EEEEEE;
+    color: #1d1c1c;
     white-space: nowrap;
     transition: 0.3s;
   }
