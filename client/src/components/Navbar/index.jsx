@@ -44,8 +44,6 @@ const Navbar = () => {
           
           <ul>
             <li onClick={handleNavLinkClick}><Link to="/"><a className="nav-link scrollto active" href="">Home</a></Link></li>
-             <li onClick={handleNavLinkClick}><Link to="/"><a className="nav-link scrollto active" href="">Home</a></Link></li>
-
             <li onClick={handleNavLinkClick}><Link to="/resources"><a className="nav-link scrollto" href="">Resources</a></Link></li>
             
             <li onClick={handleNavLinkClick} >
