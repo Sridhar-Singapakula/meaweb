@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.63b36586.chunk.css",
-    "main.js": "/static/js/main.5312c214.chunk.js",
-    "main.js.map": "/static/js/main.5312c214.chunk.js.map",
+    "main.css": "/static/css/main.223322fb.chunk.css",
+    "main.js": "/static/js/main.f12ec000.chunk.js",
+    "main.js.map": "/static/js/main.f12ec000.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c3a4a7fb.js",
     "runtime-main.js.map": "/static/js/runtime-main.c3a4a7fb.js.map",
     "static/css/2.e6bea80a.chunk.css": "/static/css/2.e6bea80a.chunk.css",
-    "static/js/2.7aebbfb5.chunk.js": "/static/js/2.7aebbfb5.chunk.js",
-    "static/js/2.7aebbfb5.chunk.js.map": "/static/js/2.7aebbfb5.chunk.js.map",
+    "static/js/2.3908892d.chunk.js": "/static/js/2.3908892d.chunk.js",
+    "static/js/2.3908892d.chunk.js.map": "/static/js/2.3908892d.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.e6bea80a.chunk.css.map": "/static/css/2.e6bea80a.chunk.css.map",
-    "static/css/main.63b36586.chunk.css.map": "/static/css/main.63b36586.chunk.css.map",
-    "static/js/2.7aebbfb5.chunk.js.LICENSE.txt": "/static/js/2.7aebbfb5.chunk.js.LICENSE.txt",
+    "static/css/main.223322fb.chunk.css.map": "/static/css/main.223322fb.chunk.css.map",
+    "static/js/2.3908892d.chunk.js.LICENSE.txt": "/static/js/2.3908892d.chunk.js.LICENSE.txt",
     "static/media/Ajay.69a10e50.jpg": "/static/media/Ajay.69a10e50.jpg",
     "static/media/Ameya.fe1ab35b.jpg": "/static/media/Ameya.fe1ab35b.jpg",
     "static/media/Dhriti.f1ca24b3.jpeg": "/static/media/Dhriti.f1ca24b3.jpeg",
@@ -30,8 +30,12 @@
     "static/media/Subram.27477268.jpg": "/static/media/Subram.27477268.jpg",
     "static/media/Tanmay.96a804c1.jpg": "/static/media/Tanmay.96a804c1.jpg",
     "static/media/YASH.d26e11a6.jpeg": "/static/media/YASH.d26e11a6.jpeg",
+    "static/media/academic.5c852bf3.png": "/static/media/academic.5c852bf3.png",
     "static/media/bootstrap-icons.css": "/static/media/bootstrap-icons.6d63d050.woff2",
     "static/media/disha.6bf6a495.jfif": "/static/media/disha.6bf6a495.jfif",
+    "static/media/excel.a79c9c14.svg": "/static/media/excel.a79c9c14.svg",
+    "static/media/folder.f9adca56.svg": "/static/media/folder.f9adca56.svg",
+    "static/media/iitb.7b7ab9c2.png": "/static/media/iitb.7b7ab9c2.png",
     "static/media/logo.ba93154a.png": "/static/media/logo.ba93154a.png",
     "static/media/me1.0a4d8909.jpeg": "/static/media/me1.0a4d8909.jpeg",
     "static/media/me2.f438d4b7.jpg": "/static/media/me2.f438d4b7.jpg",
@@ -40,16 +44,18 @@
     "static/media/p3.f16ac264.jpg": "/static/media/p3.f16ac264.jpg",
     "static/media/p4.820b4fd8.jpg": "/static/media/p4.820b4fd8.jpg",
     "static/media/p5.3852fcde.jpg": "/static/media/p5.3852fcde.jpg",
+    "static/media/pdf.7374e011.png": "/static/media/pdf.7374e011.png",
     "static/media/record.5ade4daf.svg": "/static/media/record.5ade4daf.svg",
     "static/media/remixicon.css": "/static/media/remixicon.ae701515.eot",
     "static/media/rushikeshjagtap.505cb3a5.jpg": "/static/media/rushikeshjagtap.505cb3a5.jpg",
-    "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf"
+    "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf",
+    "static/media/vpn.297289aa.jfif": "/static/media/vpn.297289aa.jfif"
   },
   "entrypoints": [
     "static/js/runtime-main.c3a4a7fb.js",
     "static/css/2.e6bea80a.chunk.css",
-    "static/js/2.7aebbfb5.chunk.js",
-    "static/css/main.63b36586.chunk.css",
-    "static/js/main.5312c214.chunk.js"
+    "static/js/2.3908892d.chunk.js",
+    "static/css/main.223322fb.chunk.css",
+    "static/js/main.f12ec000.chunk.js"
   ]
 }
