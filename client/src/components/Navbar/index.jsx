@@ -42,15 +42,16 @@ const Navbar = () => {
           
           <ul>
             <li onClick={handleNavLinkClick}><a className="nav-link scrollto active" href="/">Home</a></li>
-            <li onClick={handleNavLinkClick}><a className="nav-link scrollto" href="/GC">Resources</a></li>
+            <li onClick={handleNavLinkClick}><a className="nav-link scrollto" href="/resources">Resources</a></li>
             
             <li onClick={handleNavLinkClick} >
               <a href="/team">
                 <span>Team</span> 
               </a>
             </li>
+            <li onClick={handleNavLinkClick}><a className="nav-link scrollto" href="https://mechdampiitb.github.io/">DAMP</a></li>
             <li onClick={handleNavLinkClick}><a className="nav-link scrollto" href="/confession">Confession</a></li>
-            <li onClick={handleNavLinkClick}><a className="nav-link scrollto" href="#contact">Blogs</a></li>
+            <li onClick={handleNavLinkClick}><a className="nav-link scrollto" href="/imp-docs">IMP-DOCS</a></li>
           </ul>
           <i className="bi bi-list mobile-nav-toggle" onClick={handleMobileNavToggle} ></i>
         </nav>
