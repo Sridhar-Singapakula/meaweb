@@ -43,11 +43,9 @@ const Navbar = () => {
         <nav id="navbar" className={`navbar order-last order-lg-0 ${isMobileNavOpen ? 'mobile-nav-open' : ''}`}>
           
           <ul>
-<<<<<<< HEAD
             <li onClick={handleNavLinkClick}><Link to="/"><a className="nav-link scrollto active" href="">Home</a></Link></li>
-=======
              <li onClick={handleNavLinkClick}><Link to="/"><a className="nav-link scrollto active" href="">Home</a></Link></li>
->>>>>>> e24f1784a4d302ddc7810e98d95aa09ca1917586
+
             <li onClick={handleNavLinkClick}><Link to="/resources"><a className="nav-link scrollto" href="">Resources</a></Link></li>
             
             <li onClick={handleNavLinkClick} >
