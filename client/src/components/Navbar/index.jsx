@@ -41,17 +41,15 @@ const Navbar = () => {
         <nav id="navbar" className={`navbar order-last order-lg-0 ${isMobileNavOpen ? 'mobile-nav-open' : ''}`}>
           
           <ul>
-            <li onClick={handleNavLinkClick}><a className="nav-link scrollto active" href="/">Home</a></li>
-           <li onClick={handleNavLinkClick}><Link to="/resources"><a className="nav-link scrollto" href="">Resources</a></Link></li>
+             <li onClick={handleNavLinkClick}><Link to="/"><a className="nav-link scrollto active" href="">Home</a></Link></li>
+            <li onClick={handleNavLinkClick}><Link to="/resources"><a className="nav-link scrollto" href="">Resources</a></Link></li>
             
             <li onClick={handleNavLinkClick} >
-              <a href="/team">
-                <span>Team</span> 
-              </a>
+            <Link to="/team"><a className="nav-link scrollto" href="">Team</a></Link>
             </li>
-            <li onClick={handleNavLinkClick}><a className="nav-link scrollto" href="https://mechdampiitb.github.io/">DAMP</a></li>
-            <li onClick={handleNavLinkClick}><a className="nav-link scrollto" href="/confession">Confession</a></li>
-            <li onClick={handleNavLinkClick}><a className="nav-link scrollto" href="/imp-docs">IMP-DOCS</a></li>
+            <li onClick={handleNavLinkClick}><Link><a className="nav-link scrollto" href="https://mechdampiitb.github.io/">DAMP</a></Link></li>
+            <li onClick={handleNavLinkClick}> <Link to="/imp-docs"><a className="nav-link scrollto" href="">IMP-DOCS</a></Link></li>
+            <li onClick={handleNavLinkClick}> <Link to="/confession"><a className="nav-link scrollto" href="">Confession</a></Link></li>
           </ul>
           <i className="bi bi-list mobile-nav-toggle" onClick={handleMobileNavToggle} ></i>
         </nav>
