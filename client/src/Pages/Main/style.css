@@ -252,9 +252,14 @@ body {
     font-family: "Raleway", sans-serif;
     font-size: 15px;
     font-weight: 600;
-    color: #1d1c1c;
+    color: #f5eaea;
     white-space: nowrap;
     transition: 0.3s;
+  }
+ @media(max-width:990px){
+    .navbar a,.navbar a:focus{
+      color:black;
+    }
   }
   
   .navbar a i,
