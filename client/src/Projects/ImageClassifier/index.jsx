@@ -1,7 +1,7 @@
 import React,{ useRef } from 'react'
-import Navbar from '../../Components/Navbar'
+import Navbar from '../../components/Navbar'
 import "./style.css"
-import ImageClassifier from "../../Components/ImageClassifier"
+import ImageClassifier from "../../components/ImageClassifier"
 
 const ImageClassifierPage = () => {
     const textToCopy = `from transformers import AutoImageProcessor, ResNetForImageClassification

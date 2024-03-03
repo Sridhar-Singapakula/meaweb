@@ -1,7 +1,7 @@
 import React,{ useRef } from 'react'
-import Navbar from '../../Components/Navbar'
+import Navbar from '../../components/Navbar'
 import "./style.css"
-import Summarization from "../../Components/Summarization"
+import Summarization from "../../components/Summarization"
 
 const SummarizationPage = () => {
     const textToCopy = `from transformers import pipeline

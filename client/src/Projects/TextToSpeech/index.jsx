@@ -1,8 +1,8 @@
 import React,{ useRef } from 'react'
-import Navbar from '../../Components/Navbar'
+import Navbar from '../../components/Navbar'
 import "./style.css"
 
-import TextGeneration from '../../Components/TextGeneration'
+import TextGeneration from '../../components/TextGeneration'
 
 const TextToSpeechPage = () => {
     const textToCopy = `from transformers import pipeline

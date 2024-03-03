@@ -1,10 +1,10 @@
 import React from 'react'
 import { useState } from 'react';
-import Navbar from '../../Components/Navbar'
+import Navbar from '../../components/Navbar'
 import { Link } from 'react-router-dom';
 import "./style.css"
-import MLModels from '../../Components/MLModels';
-import modelInfo from '../../Components/Objects';
+import MLModels from '../../components/MLModels';
+import modelInfo from '../../components/Objects';
 
 export const Main = () => {
     

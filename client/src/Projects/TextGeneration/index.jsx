@@ -1,8 +1,8 @@
 import React,{ useRef } from 'react'
-import Navbar from '../../Components/Navbar'
+import Navbar from '../../components/Navbar'
 import "./style.css"
 
-import TextGeneration from '../../Components/TextGeneration'
+import TextGeneration from '../../components/TextGeneration'
 
 const TextGenerationPage = () => {
     const textToCopy = `# pip install git+https://github.com/huggingface/transformers.git # TODO: merge PR to main
