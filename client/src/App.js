@@ -1,32 +1,30 @@
-import { Fragment, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
+// import DocumentQuestion from "./Components/DocumentQuestion"
+import SummarizationPage from './Projects/Summarization';
+// import TextGeneration from './Components/TextGeneration';
+import TextToSpeechPage from './Projects/TextToSpeech';
+// import AudioRecognition from './Components/AudioRecognition';
+// import ImageSegmentation from './Components/ImageSegmentation';
+// import GPT from './Components/GPT';
+import { Main } from './Pages/Main';
 import { Switch, Route, Redirect, useLocation } from "react-router-dom";
-import { useSelector, useDispatch } from "react-redux";
-import Main from "./Pages/Main"
-import NotFound from "./Pages/NotFound"
-import Confession from "./Pages/Confession";
-import Team from "./Pages/Team";
-import impDocs from "./Pages/Impdocs";
-import Resources from "./Pages/Resources";
-
+import ImageClassifierPage from './Projects/ImageClassifier';
+import TextGenerationPage from './Projects/TextGeneration';
 
 const App = () => {
-	const dispatch = useDispatch();
-	const location = useLocation();
+  
 
-	return (
-		<Fragment>
-			
-			<Switch>
-				<Route exact path="/" component={Main} />
-				<Route exact path="/imp-docs" component={impDocs}/>
-				<Route path="/resources" component={Resources}/>
-				<Route path="/confession" component={Confession}/>
-				<Route path="/team" component={Team}/>
-				<Route path="/not-found" component={NotFound} />
-				<Redirect to="/not-found" />
-			</Switch>
-		</Fragment>
-	);
+  return (
+    <div>
+      <Switch>
+        <Route exact path="/" component={Main} />
+        <Route path="/ImageClassifierPage" component={ImageClassifierPage}/>
+        <Route path="/Summarization" component={SummarizationPage}/>
+        <Route path="/TextGeneration" component={TextGenerationPage}/>
+        <Route path="/TextToSpeech" component={TextToSpeechPage}/>
+      </Switch>
+    </div>
+  );
 };
 
 export default App;

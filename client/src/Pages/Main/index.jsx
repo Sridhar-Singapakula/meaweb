@@ -1,188 +1,139 @@
-import { Link,useHistory} from "react-router-dom";
-import me1 from "../../img/images/me1.jpeg"
-import me2 from "../../img/images/me2.jpg"
-import React from 'react';
-import AOS from 'aos';
-import Joi from "joi"
-import { useEffect,useState } from 'react';
-import {useDispatch} from "react-redux";
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-import 'aos/dist/aos.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap-icons/font/bootstrap-icons.css';
-// import 'boxicons/css/boxicons.min.css';
-import 'glightbox/dist/css/glightbox.min.css';
-import 'remixicon/fonts/remixicon.css';
-import 'swiper/swiper.min.css';
-import 'swiper/swiper-bundle.min.css';
-import './style.css';
-import Ameya from "../../img/images/Ameya.jpg"
-import Kush from "../../img/images/Kush.jpeg"
-import Rushi from "../../img/images/Rushi.jpeg"
-import Rishikesh from "../../img/images/rushikeshjagtap.jpg"
-import Mayur from "../../img/images/Mayur Tank.jpg"
-import Ajay from "../../img/images/Ajay.jpg"
-import Kriti from "../../img/images/Kriti A.jpg"
-import Samiksha from "../../img/images/Samiksha.jpg"
-import Jenil from "../../img/images/Jenil.jpeg"
-import Disha from "../../img/images/Disha.HEIC"
-import Sridhar from "../../img/images/SRIDHAR.jpg"
-import Subram from "../../img/images/Subram.jpg"
-import Manasvi from "../../img/images/Manasvi.jpg"
-import Tanmay from "../../img/images/Tanmay.jpg"
-import Yash from "../../img/images/YASH.jpeg"
+import React from 'react'
+import { useState } from 'react';
+import Navbar from '../../Components/Navbar'
+import { Link } from 'react-router-dom';
+import "./style.css"
+import MLModels from '../../Components/MLModels';
+import modelInfo from '../../Components/Objects';
 
-import p1 from "../../img/images/p1.jpg"
-import p2 from "../../img/images/p2.jpg"
-import p3 from "../../img/images/p3.jpg"
-import p4 from "../../img/images/p4.jpg"
-import p5 from "../../img/images/p5.jpg"
+export const Main = () => {
+    
+    const [searchTerm, setSearchTerm] = useState('');
+  const [filteredModels, setFilteredModels] = useState(modelInfo);
 
-import Navbar from "../../components/Navbar"
-
-
-const Main = () => {
-
-	const [errors, setErrors] = useState({});
-	const [isFetching, setIsFetching] = useState(false);
-	const dispatch = useDispatch();
-	const history = useHistory();
-	const images=[
-    p1,p2,p3,p4,p5
-  ]
-    const [isMobileNavOpen, setIsMobileNavOpen] = useState(false); 
-
-    const handleMobileNavToggle = () => {
-        setIsMobileNavOpen(!isMobileNavOpen);
-    };
-    const sliderSettings = {
-        dots: true,
-        autoplay: true,
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        autoplaySpeed: 2000, // Set the interval between slides (in milliseconds)
-        customPaging: function (i,active) {
-          return (
-            <div
-              style={{
-                width: "12px",
-                height: "12px",
-                border: active ? "2px solid black" : "2px solid white",
-                borderRadius: "50%",
-                margin: "0 5px",
-              }}
-            ></div>
-          );
-        },
-        appendDots: (dots) => (
-          <div
-            style={{
-              position: "absolute",
-              bottom: "10px",
-              left: "50%",
-              transform: "translateX(-50%)",
-            }}
-          >
-            <ul style={{ margin: "0", padding: "0", listStyle: "none" }}>{dots}</ul>
-          </div>
-        ),
-      };
-    useEffect(() => {
-      AOS.init({
-        duration: 1200,
-        });
-      }, []);
-      
+  const handleSearch = () => {
+    const filtered = modelInfo.filter(model =>
+      model.modelName.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+    setFilteredModels(filtered);
+    setSearchTerm(''); // Clear the search term after filtering
+  };
+  const onlineTryOutModels = filteredModels.filter((model) => model.isValid === 'True');
+  const githubCodeModels = filteredModels.filter((model) => model.isValid === 'False');
 
   return (
-    <div className="main">
-     <Navbar/>
-
-    <section id="hero" className="d-flex align-items-center">
-      <div className="container" data-aos="zoom-out" data-aos-delay="100">
-       
-          <div className="col-xl-5">
-            <h1>Hello,Welcome!<br/>Mechanical Engineering Association</h1>
-            <h2>IIT Bombay</h2>
-            <a href="/" className="facebook" style={{color:"#316FF6"}}><i class="bi bi-facebook"></i></a>
-            <a href="/" className="instagram" style={{color:"#c13584"}}><i class="bi bi-instagram"></i></a>
-            <a href="/" className="linkedin" style={{color:"#0077b5"}}><i class="bi bi-linkedin"></i></a>
-          </div>
-        
-      </div>
-    </section>
-    <section className="photo_gallery" data-aos="zoom-in">
-      <h4 className="_h4" style={{textAlign:"center"}}>Events</h4>
-     <Slider {...sliderSettings} style={{textAlign:"center"}}>
-      <div>
-        <img src={p1} alt="" className="gallery_"></img>
-      </div>
-      <div>
-        <img src={p2} alt="" className="gallery_"></img>
-      </div>
-      <div>
-        <img src={p3} alt="" className="gallery_"></img>
-      </div>
-      <div>
-        <img src={p4} alt="" className="gallery_"></img>
-      </div>
-      <div>
-        <img src={p5} alt="" className="gallery_"></img>
-      </div>
-     </Slider>
-    </section>
-  <div id="footer">
-
-  <div className="footer-top">
-    <div className="container">
-      <div className="row">
-
-        <div className="col-lg-3 col-md-6 footer-contact">
-          <h3 style={{color:"#DAC0A3"}}>MEA IIT Bombay<span>.</span></h3>
-          <p>
-          IIT Bombay<br />
-          Maharashtra 440010<br /><br />
-            <strong>Phone:</strong> +91 712-2461355<br />
-            <strong>Email:</strong> info@gmail.com<br />
-          </p>
-        </div>
-
-        <div className="col-lg-2 col-md-6 footer-links">
-          <h4>Useful Links</h4>
-          <ul>
-            <li><i className="bx bx-chevron-right"></i> <a href="/">Moodle</a></li>
-            <li><i className="bx bx-chevron-right"></i> <a href="/">CDEEP</a></li>
-            <li><i className="bx bx-chevron-right"></i> <a href="/">Webmail</a></li>
-            <li><i className="bx bx-chevron-right"></i> <a href="/">External ASC</a></li>
-            <li><i className="bx bx-chevron-right"></i> <a href="/">Internal ASC</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-    <div className="container d-md-flex py-4">
-        <div className="me-md-auto text-center text-md-start">
-            <div className="copyright">
-             &copy; Copyright <strong><span>MEA IIT Bombay</span></strong>. All Rights Reserved
+    <div>
+        <Navbar/>
+        <section className='head_'>
+            <div className='main_atlan'>
+            <h4 className='main_h4'>Discover AI Brilliance: Join Our Global Community</h4>
+            <p className='main_p'>
+            your one-stop destination for crafting powerful AI-driven applications. Uncover, create, and exchange innovative AI models, workflows, and app elements, all seamlessly integrated into Clarifai's user-friendly low code and no code platform. 
+            </p>
+            <div className='main_under'>
+            <button className='button-46'>More About Us</button>
+            <button className='button-67' style={{textAlign:"center"}}>Explore</button>
             </div>
+            <p className='main_p'>Do follow us on: </p>
+            <ul className='icons_'>
+            <i class="bi bi-github"></i>
+            <i class="bi bi-linkedin" style={{color:"#0A66C2"}}></i>
+            <i class="bi bi-twitter-x"></i>
+            <i class="bi bi-youtube" style={{color:"#CD201F"}}></i>
+            </ul>
+            </div>
+        </section>
+        <section >
+            <h4 className='cards_h4' style={{textAlign:"center",marginTop:"30px"}}>What makes us Different</h4>
+            <div className='cards_atlan'>
+            <div className='card_2'>
+                <div className='card2_div'><i class="bi bi-globe-europe-africa" style={{color:"white",fontSize:"20px",marginRight:"10px"}}></i>Accessible</div>
+                <p className='cards_p'>Wherever  in the world</p>
+                <h2 className='card_h2'>24x7</h2>
+            </div>
+            <div className='card_1'>
+                <i class="bi bi-play-circle-fill" style={{fontSize:"35px",color:"white"}}></i>
+                <p className='cards_p'>Daily users</p>
+                <h2 className='card_h2'>400+</h2>
+            </div>
+            <div className='card_3'>
+                 <div className='card2_div'><i class="bi bi-graph-up-arrow" style={{color:"white",fontSize:"20px",marginRight:"10px"}}></i>Growing</div>
+                <p className='cards_p'>Fast Growing Community</p>
+                <h2 className='card_h2'>ML models</h2>
+            </div>
+            </div>
+        </section>
+        <section className='models'>
+        <h4 className='cards_h4' style={{textAlign:"center",marginTop:"30px"}}>Explore Models By our community</h4>
+        <div className='search_box'>
+        <input
+          type="text"
+          placeholder="Search by model name..."
+          value={searchTerm}
+          className='search_bar'
+          onChange={(e) => setSearchTerm(e.target.value)}
+        />
+        <button onClick={handleSearch} className='button-46'><i class="bi bi-search" style={{marginRight:"10px"}}></i> Search</button>
+      </div>
+      <div className='MLmodels_'>
+          <div>
+            <h2>Online Try Out Models</h2>
+            {onlineTryOutModels.map((model, index) => (
+              <Link to={model.LinkTo} key={index} style={{ textDecoration: 'none' }}>
+                <MLModels model={model} />
+              </Link>
+            ))}
+          </div>
+          <div>
+            <h2>GithubCode MLmodels</h2>
+            {githubCodeModels.map((model, index) => (
+              <Link to={model.LinkTo} key={index} style={{ textDecoration: 'none' }}>
+                <MLModels model={model} />
+              </Link>
+            ))}
+          </div>
         </div>
-        <div className="social-links text-center text-md-end pt-3 pt-md-0">
-            <a href="/" className="twitter"><i class="bi bi-twitter"></i></a>
-            <a href="/" className="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="/" className="instagram"><i class="bi bi-instagram"></i></a>
-            <a href="/" className="google-plus"><i class="bi bi-skype"></i></a>
-            <a href="/" className="linkedin"><i class="bi bi-linkedin"></i></a>
-        </div>
-    </div>
-</div>
+        </section>
+        <section className='down_sec'>
+            <div className='down'>
+                <div className='down_1'>
+                <div style={{width:"70px",height:"70px",background:"rgb(219, 216, 249)",alignItems:"center",display:"flex",justifyContent:"center",borderRadius:"10px"}}><i class="bi bi-discord" style={{fontSize:"30px",color:"rgb(99, 86, 238)"}}></i></div>
+                </div>
+                <div className='down_info'>
+                    <h4>
+                    Join our Discord Channel
+                    </h4>
+                    <p>
+                    Post questions, talk to core engineers and share knowledge with other AI builders.
+                    </p>
+                    <p style={{textDecoration:"underline",color:"rgb(127, 153, 241)"}}>
+                    Join Discord channel
+                    </p>
+                </div>
+            </div>
 
-  <a href="/" className="back-to-top d-flex align-items-center justify-content-center"><i className="bi bi-arrow-up-short"></i></a>
-</div>
+            <div className='down'>
+                <div className='down_1'>
+                <div style={{width:"70px",height:"70px",background:"rgb(224, 247, 224)",alignItems:"center",display:"flex",justifyContent:"center",borderRadius:"10px"}}><i class="bi bi-play-circle-fill" style={{fontSize:"30px",color:"rgb(7, 107, 7)"}}></i></div>
+                </div>
+                <div className='down_info'>
+                    <h4>
+                    Community Video Tutorial
+                    </h4>
+                    <p>
+                    Post questions, talk to core engineers and share knowledge with other AI builders.
+                    </p>
+                    <p style={{textDecoration:"underline",color:"rgb(127, 153, 241)"}}>
+                    Join as A member to our channel
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section style={{textAlign:"center"}}>
+            <p className='last'>
+            © 2024 Polaris-All licensed content <span style={{textDecoration:"underline",color:"rgb(27, 80, 139)"}}>Community</span>
+            </p>
+        </section>
+    </div>
   )
 }
-
-export default Main
