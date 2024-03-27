@@ -51,6 +51,7 @@ const Navbar = () => {
             </li>
             <li onClick={handleNavLinkClick}><Link><a className="nav-link scrollto" href="https://mechdampiitb.github.io/">DAMP</a></Link></li>
             <li onClick={handleNavLinkClick}> <Link to="/imp-docs"><a className="nav-link scrollto" href="">IMP-DOCS</a></Link></li>
+            <li onClick={handleNavLinkClick}> <Link to="/timetable"><a className="nav-link scrollto" href="">Time-Table</a></Link></li>
             <li onClick={handleNavLinkClick}> <Link to="/confession"><a className="nav-link scrollto" href="">Confession</a></Link></li>
           </ul>
           <i className="bi bi-list mobile-nav-toggle" onClick={handleMobileNavToggle} ></i>
