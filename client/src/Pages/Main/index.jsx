@@ -44,7 +44,6 @@ import Navbar from "../../components/Navbar"
 
 
 const Main = () => {
-
 	const [errors, setErrors] = useState({});
 	const [isFetching, setIsFetching] = useState(false);
 	const dispatch = useDispatch();
@@ -102,15 +101,12 @@ const Main = () => {
 
     <section id="hero" className="d-flex align-items-center">
       <div className="container" data-aos="zoom-out" data-aos-delay="100">
-       
           <div className="col-xl-5">
             <h1>Hello,Welcome!<br/>Mechanical Engineering Association</h1>
             <h2>IIT Bombay</h2>
-            <a href="/" className="facebook" style={{color:"#316FF6"}}><i class="bi bi-facebook"></i></a>
-            <a href="/" className="instagram" style={{color:"#c13584"}}><i class="bi bi-instagram"></i></a>
-            <a href="/" className="linkedin" style={{color:"#0077b5"}}><i class="bi bi-linkedin"></i></a>
+            <p style={{fontSize:"20px",color:"white",marginTop:"30px",marginBottom:"-50px"}}>Follow Us</p>
+            <a href="https://www.instagram.com/mea_iitb/" className="instagram" style={{color:"#c13584"}}>  <i class="bi bi-instagram"> </i> </a>
           </div>
-        
       </div>
     </section>
     <section className="photo_gallery" data-aos="zoom-in">
@@ -144,19 +140,19 @@ const Main = () => {
           <p>
           IIT Bombay<br />
           Maharashtra 440010<br /><br />
-            <strong>Phone:</strong> +91 712-2461355<br />
-            <strong>Email:</strong> info@gmail.com<br />
+            <strong>Phone:</strong> +91  77109 63432<br />
+            <strong>Email:</strong> gsec@me.iitb.ac.in<br />
           </p>
         </div>
 
         <div className="col-lg-2 col-md-6 footer-links">
           <h4>Useful Links</h4>
           <ul>
-            <li><i className="bx bx-chevron-right"></i> <a href="/">Moodle</a></li>
-            <li><i className="bx bx-chevron-right"></i> <a href="/">CDEEP</a></li>
-            <li><i className="bx bx-chevron-right"></i> <a href="/">Webmail</a></li>
-            <li><i className="bx bx-chevron-right"></i> <a href="/">External ASC</a></li>
-            <li><i className="bx bx-chevron-right"></i> <a href="/">Internal ASC</a></li>
+            <li><i className="bx bx-chevron-right"></i> <a href="https://moodle.iitb.ac.in/login/index.php">Moodle</a></li>
+            <li><i className="bx bx-chevron-right"></i> <a href="https://www.cdeep.iitb.ac.in/">CDEEP</a></li>
+            <li><i className="bx bx-chevron-right"></i> <a href="https://webmail.iitb.ac.in/?_task=mail&_mbox=INBOX">Webmail</a></li>
+            <li><i className="bx bx-chevron-right"></i> <a href="https://portal.iitb.ac.in/asc/Login">External ASC</a></li>
+            <li><i className="bx bx-chevron-right"></i> <a href="https://asc.iitb.ac.in/acadmenu/index.jsp">Internal ASC</a></li>
           </ul>
         </div>
       </div>
@@ -167,13 +163,13 @@ const Main = () => {
     <div className="container d-md-flex py-4">
         <div className="me-md-auto text-center text-md-start">
             <div className="copyright">
-             &copy; Copyright <strong><span>MEA IIT Bombay</span></strong>. All Rights Reserved
+             &copy; created by--Subram & Sridhar <strong><span>MEA IIT Bombay</span></strong>
             </div>
         </div>
         <div className="social-links text-center text-md-end pt-3 pt-md-0">
             <a href="/" className="twitter"><i class="bi bi-twitter"></i></a>
             <a href="/" className="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="/" className="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.instagram.com/mea_iitb/" className="instagram"><i class="bi bi-instagram"></i></a>
             <a href="/" className="google-plus"><i class="bi bi-skype"></i></a>
             <a href="/" className="linkedin"><i class="bi bi-linkedin"></i></a>
         </div>

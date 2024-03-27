@@ -7,6 +7,7 @@ import Confession from "./Pages/Confession";
 import Team from "./Pages/Team";
 import impDocs from "./Pages/Impdocs";
 import Resources from "./Pages/Resources";
+import Feedback from "./Pages/feedback";
 
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
 				<Route path="/resources" component={Resources}/>
 				<Route path="/confession" component={Confession}/>
 				<Route path="/team" component={Team}/>
+				<Route path="/feedback" component={Feedback}/>
 				<Route path="/not-found" component={NotFound} />
 				<Redirect to="/not-found" />
 			</Switch>
