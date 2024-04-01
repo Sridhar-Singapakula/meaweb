@@ -75,13 +75,6 @@ const Timetable = () => {
                             &copy; Copyright <strong><span>MEA IIT Bombay</span></strong>. All Rights Reserved
                         </div>
                     </div>
-                    <div className="social-links text-center text-md-end pt-3 pt-md-0">
-                        <a href="/" className="twitter"><i class="bi bi-twitter"></i></a>
-                        <a href="/" className="facebook"><i class="bi bi-facebook"></i></a>
-                        <a href="/" className="instagram"><i class="bi bi-instagram"></i></a>
-                        <a href="/" className="google-plus"><i class="bi bi-skype"></i></a>
-                        <a href="/" className="linkedin"><i class="bi bi-linkedin"></i></a>
-                    </div>
                 </div>
             </div>
         </div>

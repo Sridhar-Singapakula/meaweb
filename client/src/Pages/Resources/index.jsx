@@ -65,16 +65,15 @@ const Resources = () => {
   <div className="container">
     <div className="row">
 
-      <div className="col-lg-3 col-md-6 footer-contact">
-        <h3 style={{color:"#DAC0A3"}}>MEA IIT Bombay<span>.</span></h3>
-        
-        <p>
-        IIT Bombay<br />
-        Maharashtra 440010<br /><br />
-          <strong>Phone:</strong> +91 712-2461355<br />
-          <strong>Email:</strong> info@gmail.com<br />
-        </p>
-      </div>
+    <div className="col-lg-3 col-md-6 footer-contact">
+          <h3 style={{color:"#DAC0A3"}}>MEA IIT Bombay<span>.</span></h3>
+          <p>
+          IIT Bombay<br />
+          Maharashtra 440010<br /><br />
+            <strong>Phone:</strong> +91  77109 63432<br />
+            <strong>Email:</strong> gsec@me.iitb.ac.in<br />
+          </p>
+        </div>
 
       <div className="col-lg-2 col-md-6 footer-links">
         <h4>Useful Links</h4>
@@ -97,13 +96,7 @@ const Resources = () => {
            &copy; Copyright <strong><span>MEA IIT Bombay</span></strong>. All Rights Reserved
           </div>
       </div>
-      <div className="social-links text-center text-md-end pt-3 pt-md-0">
-          <a href="/" className="twitter"><i class="bi bi-twitter"></i></a>
-          <a href="/" className="facebook"><i class="bi bi-facebook"></i></a>
-          <a href="/" className="instagram"><i class="bi bi-instagram"></i></a>
-          <a href="/" className="google-plus"><i class="bi bi-skype"></i></a>
-          <a href="/" className="linkedin"><i class="bi bi-linkedin"></i></a>
-      </div>
+     
   </div>
 </div>
     </div>

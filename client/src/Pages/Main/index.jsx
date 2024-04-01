@@ -39,6 +39,8 @@ import p2 from "../../img/images/p2.jpg"
 import p3 from "../../img/images/p3.jpg"
 import p4 from "../../img/images/p4.jpg"
 import p5 from "../../img/images/p5.jpg"
+import magazine from "../../img/images/edit.jpg"
+import newsletter from "../../img/images/editorial.jpg"
 
 import Navbar from "../../components/Navbar"
 
@@ -109,6 +111,24 @@ const Main = () => {
           </div>
       </div>
     </section>
+    <section style={{marginBottom:"100px",marginTop:"-50px"}}>
+    <h4 className="_h4" style={{textAlign:"center"}}>Editorial</h4>
+    <div className="_editorial">
+      <div >
+        <img className="editimg" src={magazine}>
+        </img>
+        <h6 className="_h4" style={{textAlign:"center",fontSize:"15px",color:"white"}}>Magazine 2022</h6>
+        <button className="button-65"><a href="https://drive.google.com/file/d/1desQ3-9HsoT0_tD6EmCf_bmMcqKITXLd/view?usp=drivesdk">Read More</a></button>
+      </div>
+      <div>
+        <img className="editimg" src={newsletter}>
+        </img>
+        <h6 className="_h4" style={{textAlign:"center",fontSize:"15px",color:"white"}}>Newsletter 2023-24</h6>
+        <button className="button-65"><a href="https://drive.google.com/file/d/1dYTYud033KYNElQJtVqzbsp9VQYNlXJi/view?usp=drivesdk">Read More</a></button>
+
+      </div>
+    </div>
+    </section>
     <section className="photo_gallery" data-aos="zoom-in">
       <h4 className="_h4" style={{textAlign:"center"}}>Events</h4>
      <Slider {...sliderSettings} style={{textAlign:"center"}}>
@@ -165,13 +185,6 @@ const Main = () => {
             <div className="copyright">
              &copy; created by--Subram & Sridhar <strong><span>MEA IIT Bombay</span></strong>
             </div>
-        </div>
-        <div className="social-links text-center text-md-end pt-3 pt-md-0">
-            <a href="/" className="twitter"><i class="bi bi-twitter"></i></a>
-            <a href="/" className="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="https://www.instagram.com/mea_iitb/" className="instagram"><i class="bi bi-instagram"></i></a>
-            <a href="/" className="google-plus"><i class="bi bi-skype"></i></a>
-            <a href="/" className="linkedin"><i class="bi bi-linkedin"></i></a>
         </div>
     </div>
 </div>

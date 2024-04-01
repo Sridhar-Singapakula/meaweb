@@ -35,6 +35,7 @@ const App = () => {
 				<Route path="/resources" component={Resources}/>
 				<Route path="/confession" component={Confession}/>
 				<Route path="/team" component={Team}/>
+				<Route path="/feedback" component={Feedback}/>
 				<Route path="/timetable" component={Timetable}/>
 				<Route path="/not-found" component={NotFound} />
 				<Redirect to="/not-found" />
