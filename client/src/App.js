@@ -34,6 +34,7 @@ const App = () => {
 				<Route exact path="/imp-docs" component={impDocs}/>
 				<Route path="/resources" component={Resources}/>
 				<Route path="/confession" component={Confession}/>
+				<Route path="/feedback" component={Feedback}/>
 				<Route path="/team" component={Team}/>
 				<Route path="/feedback" component={Feedback}/>
 				<Route path="/timetable" component={Timetable}/>
