@@ -39,3 +39,9 @@
       padding: 1.2rem 4rem;
     }
   }
+  .damp{
+    margin-left: 20px;
+  }
+  @media(max-width:600px){
+    .damp{margin-left: 30px;}
+  }

@@ -55,7 +55,7 @@ const Navbar = () => {
             <Link to="/team"><a className="nav-link scrollto" href="" style={{ fontFamily: "'Rubik Scribble', system-ui" , fontWeight:'900', fontSize:'1.7rem'}}>Team</a></Link>
             </li>
             <li onClick={handleNavLinkClick}> <Link to="/gallery"><a className="nav-link scrollto" href="" style={{ fontFamily: "'Rubik Scribble', system-ui" , fontWeight:'900', fontSize:'1.7rem'}}>Gallery</a></Link></li>
-            <li onClick={handleNavLinkClick}><a className="nav-link scrollto" href="https://mechdampiitb.github.io/" style={{ fontFamily: "'Rubik Scribble', system-ui" , fontWeight:'900', fontSize:'1.7rem'}}>DAMP</a></li>
+            <li onClick={handleNavLinkClick} className="damp"><a className="nav-link scrollto" href="https://mechdampiitb.github.io/" style={{ fontFamily: "'Rubik Scribble', system-ui" , fontWeight:'900', fontSize:'1.7rem'}}>DAMP</a></li>
           </ul>
           <i className="bi bi-list mobile-nav-toggle" onClick={handleMobileNavToggle} ></i>
         </nav>

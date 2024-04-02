@@ -71,6 +71,11 @@ const Team = () => {
 					<p>Associate Secretary</p>
 				</div>
 				<div className='team_' data-aos="zoom-in">
+					<img src={Ajay}></img>
+					<h2>Ajay</h2>
+					<p>Associate Secretary</p>
+				</div>
+				<div className='team_' data-aos="zoom-in">
 					<img src={Kriti}></img>
 					<h2>Kriti A</h2>
 					<p>Academic Secretary</p>
@@ -109,6 +114,7 @@ const Team = () => {
 				</div>
 			</div>
 			<div className='team_head'>
+			
 				<div className='team_' data-aos="zoom-in">
 					<img src={Tanmay}></img>
 					<h2>Tanmay Kulkarni</h2>
@@ -174,9 +180,9 @@ const Team = () => {
 
   <div className="container d-md-flex py-4">
       <div className="me-md-auto text-center text-md-start">
-          <div className="copyright">
-           &copy; Copyright <strong><span>MEA IIT Bombay</span></strong>. All Rights Reserved
-          </div>
+	  <div className="copyright">
+             &copy; created by--Subram & Sridhar <strong><span>MEA IIT Bombay</span></strong>
+            </div>
       </div>
      
   </div>

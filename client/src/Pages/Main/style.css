@@ -260,6 +260,7 @@ body {
     .navbar a,.navbar a:focus{
       color:black;
     }
+    
   }
   
   .navbar a i,
@@ -363,6 +364,7 @@ body {
     .navbar ul {
       display: none;
     }
+   
   }
   
   .navbar-mobile {

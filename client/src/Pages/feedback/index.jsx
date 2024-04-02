@@ -6,7 +6,7 @@ const Feedback = () => {
     <div style={{marginTop:"100px",textAlign:"center"}}>
         <Navbar/>
         <h3 className='_h4'>Feedback Form<span>.</span></h3>
-        <iframe src="https://docs.google.com/forms/d/1rONLsTIF4Adh_lj4tCapBKhJ4OQ-TRHNPB9EZzjJheA/edit?chromeless=1" width="640" height="605" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScXaY3hezEXS9hLlBkjENLmdU7IMICpANfen4FC1P49u9Y4vg/viewform?embedded=true" width="640" height="2573" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         <div id="footer">
 
 <div className="footer-top">
@@ -40,9 +40,10 @@ const Feedback = () => {
 
   <div className="container d-md-flex py-4">
       <div className="me-md-auto text-center text-md-start">
-          <div className="copyright">
-           &copy; Copyright <strong><span>MEA IIT Bombay</span></strong>. All Rights Reserved
-          </div>
+      <div className="copyright">
+             &copy; created by--Subram & Sridhar <strong><span>MEA IIT Bombay</span></strong>
+            </div>
+
       </div>
       
   </div>
