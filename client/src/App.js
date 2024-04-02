@@ -10,6 +10,7 @@ import Resources from "./Pages/Resources";
 import Timetable from "./Pages/TimeTable";
 import Loading from "./Pages/Loading/loading";
 import { Editorial } from "./Pages/Editorial";
+import { Gallery } from "./Pages/Gallery";
 
 
 const App = () => {
@@ -37,6 +38,7 @@ const App = () => {
 				<Route path="/team" component={Team}/>
 				<Route path="/timetable" component={Timetable}/>
 				<Route path="/editorial" component={Editorial}/>
+				<Route path="/gallery" component={Gallery}/>
 				<Route path="/not-found" component={NotFound} />
 				<Redirect to="/not-found" />
 			</Switch>

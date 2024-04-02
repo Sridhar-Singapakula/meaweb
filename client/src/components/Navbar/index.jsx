@@ -52,8 +52,9 @@ const Navbar = () => {
             <li onClick={handleNavLinkClick}><Link><a className="nav-link scrollto" href="https://mechdampiitb.github.io/" style={{ fontFamily: "'Rubik Scribble', system-ui" , fontWeight:'900', fontSize:'1.7rem'}}>DAMP</a></Link></li>
             <li onClick={handleNavLinkClick}> <Link to="/imp-docs"><a className="nav-link scrollto" href=""  style={{ fontFamily: "'Rubik Scribble', system-ui" , fontWeight:'900', fontSize:'1.7rem'}}>Imp. Docs</a></Link></li>
             <li onClick={handleNavLinkClick}> <Link to="/timetable"><a className="nav-link scrollto" href="" style={{ fontFamily: "'Rubik Scribble', system-ui" , fontWeight:'900', fontSize:'1.7rem'}}>Time-Table</a></Link></li>
-            <li onClick={handleNavLinkClick}> <Link to="/confession"><a className="nav-link scrollto" href="" style={{ fontFamily: "'Rubik Scribble', system-ui" , fontWeight:'9 00', fontSize:'1.7rem'}}>Confession</a></Link></li>
+            <li onClick={handleNavLinkClick}> <Link to="/confession"><a className="nav-link scrollto" href="" style={{ fontFamily: "'Rubik Scribble', system-ui" , fontWeight:'900', fontSize:'1.7rem'}}>Confession</a></Link></li>
             <li onClick={handleNavLinkClick}> <Link to="/editorial"><a className="nav-link scrollto" href="" style={{ fontFamily: "'Rubik Scribble', system-ui" , fontWeight:'900', fontSize:'1.7rem'}}>Editorial</a></Link></li>
+            <li onClick={handleNavLinkClick}> <Link to="/gallery"><a className="nav-link scrollto" href="" style={{ fontFamily: "'Rubik Scribble', system-ui" , fontWeight:'900', fontSize:'1.7rem'}}>Gallery</a></Link></li>
           </ul>
           <i className="bi bi-list mobile-nav-toggle" onClick={handleMobileNavToggle} ></i>
         </nav>
