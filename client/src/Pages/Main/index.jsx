@@ -166,16 +166,17 @@ const Main = () => {
 
     <div className="container d-md-flex py-4">
         <div className="me-md-auto text-center text-md-start">
-            <div className="copyright">
+            <div className="copyright" style={{width: '66vw'}}>
              &copy; Copyright <strong><span>MEA IIT Bombay</span></strong>. All Rights Reserved
+             <strong><span class="created-by">Created by Subram and Sridhar</span></strong>
             </div>
         </div>
         <div className="social-links text-center text-md-end pt-3 pt-md-0">
-            <a href="/" className="twitter"><i class="bi bi-twitter"></i></a>
-            <a href="/" className="facebook"><i class="bi bi-facebook"></i></a>
+            {/* <a href="/" className="twitter"><i class="bi bi-twitter"></i></a> */}
+            {/* <a href="/" className="facebook"><i class="bi bi-facebook"></i></a> */}
             <a href="/" className="instagram"><i class="bi bi-instagram"></i></a>
-            <a href="/" className="google-plus"><i class="bi bi-skype"></i></a>
-            <a href="/" className="linkedin"><i class="bi bi-linkedin"></i></a>
+            {/* <a href="/" className="google-plus"><i class="bi bi-skype"></i></a> */}
+            {/* <a href="/" className="linkedin"><i class="bi bi-linkedin"></i></a> */}
         </div>
     </div>
 </div>

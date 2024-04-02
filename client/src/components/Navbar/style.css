@@ -1,4 +1,11 @@
 /* CSS */
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+.rubik-scribble-regular {
+  font-family: "Rubik Scribble", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .button-40 {
     background-color: #93eae3;
     border: 1px solid transparent;
@@ -7,7 +14,8 @@
     color: #444444;
     cursor: pointer;
     flex: 0 0 auto;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: "Rubik Scribble", system-ui;
     font-size: 18px;
     font-weight: 500;
     line-height: 1.5rem;

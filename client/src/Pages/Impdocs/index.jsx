@@ -13,7 +13,7 @@ const impDocs = () => {
   return (
     <div style={{marginTop:"100px",textAlign:"center"}}>
         <Navbar/>
-        <h3 className='_h4'>IMP Docs</h3>
+        <h3 className='_h4'>IMPORTANT DOCUMENTS</h3>
         <div className='imp_docs'>
             <div className='docs_'>
                 <a target="_blank" href="https://iitbacin-my.sharepoint.com/personal/190100088_iitb_ac_in/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2F190100088%5Fiitb%5Fac%5Fin%2FDocuments%2FMaster%5FDrive%5FPB%2FImportant%20Documents%2FAcademic%20Calendar%202023%2D24%2Epdf&parent=%2Fpersonal%2F190100088%5Fiitb%5Fac%5Fin%2FDocuments%2FMaster%5FDrive%5FPB%2FImportant%20Documents">

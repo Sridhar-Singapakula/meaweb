@@ -4,6 +4,10 @@ body {
     color: #444444;
     background-color: black;
   }
+
+  .created-by {
+    margin-left: 10%; /* Adjust the value as needed */
+  }
   
   a {
     color: #221D3D;

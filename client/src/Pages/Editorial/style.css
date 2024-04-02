@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&family=Workbench&display=swap');
+.rubik-scribble-regular {
+    font-family: "Rubik Scribble", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+.container {
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .section {
+    flex: 1 0 45%; /* Adjust the width of each section as needed */
+    margin: 10px;
+  }
+  
+  .section h2 {
+    margin-bottom: 5%;
+    /* font-family: "Rubik Scribble", system-ui; */
+    /* font-weight: 400;
+    font-style: normal; */
+
+    font-family: "Workbench", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 4rem;
+    font-style: normal;
+    font-variation-settings:
+      "BLED" 0,
+      "SCAN" 0;
+  }
+  
+  .section img {
+    max-width: 50%;
+    max-height: 40%;
+  }
+  

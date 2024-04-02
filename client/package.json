@@ -2,6 +2,16 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties",
+      "@babel/plugin-proposal-object-rest-spread"
+    ]
+  },
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
@@ -27,6 +37,7 @@
     "react-dom": "^17.0.2",
     "react-icons": "^4.8.0",
     "react-jvectormap": "^0.0.13",
+    "react-pdf": "^7.7.1",
     "react-redux": "^7.2.9",
     "react-router-dom": "^5.3.4",
     "react-scripts": "^4.0.3",
@@ -37,6 +48,7 @@
     "remixicon": "^3.2.0",
     "sass": "^1.62.1",
     "slick-carousel": "^1.8.1",
+    "styled-components": "^6.1.6",
     "swiper": "^9.3.2",
     "web-vitals": "^2.1.4"
   },
@@ -63,5 +75,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-optional-chaining": "^7.21.0"
   }
 }

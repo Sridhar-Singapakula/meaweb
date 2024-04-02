@@ -42,16 +42,18 @@ const Navbar = () => {
 
         <nav id="navbar" className={`navbar order-last order-lg-0 ${isMobileNavOpen ? 'mobile-nav-open' : ''}`}>
           
-          <ul>
-            <li onClick={handleNavLinkClick}><Link to="/"><a className="nav-link scrollto active" href="">Home</a></Link></li>
-            <li onClick={handleNavLinkClick}><Link to="/resources"><a className="nav-link scrollto" href="">Resources</a></Link></li>
+          <ul >
+            <li onClick={handleNavLinkClick}><Link to="/"><a className="nav-link scrollto active" href=""  style={{ fontFamily: "'Rubik Scribble', system-ui"  , fontWeight:'900', fontSize:'1.7rem'}}>Home</a></Link></li>
+            <li onClick={handleNavLinkClick}><Link to="/resources"><a className="nav-link scrollto" href=""  style={{ fontFamily: "'Rubik Scribble', system-ui"  , fontWeight:'900', fontSize:'1.7rem'}}>Resources</a></Link></li>
             
-            <li onClick={handleNavLinkClick} >
-            <Link to="/team"><a className="nav-link scrollto" href="">Team</a></Link>
+            <li onClick={handleNavLinkClick} > 
+            <Link to="/team"><a className="nav-link scrollto" href=""  style={{ fontFamily: "'Rubik Scribble', system-ui" , fontWeight:'900', fontSize:'1.7rem'}} >Team</a></Link>
             </li>
-            <li onClick={handleNavLinkClick}><Link><a className="nav-link scrollto" href="https://mechdampiitb.github.io/">DAMP</a></Link></li>
-            <li onClick={handleNavLinkClick}> <Link to="/imp-docs"><a className="nav-link scrollto" href="">IMP-DOCS</a></Link></li>
-            <li onClick={handleNavLinkClick}> <Link to="/confession"><a className="nav-link scrollto" href="">Confession</a></Link></li>
+            <li onClick={handleNavLinkClick}><Link><a className="nav-link scrollto" href="https://mechdampiitb.github.io/" style={{ fontFamily: "'Rubik Scribble', system-ui" , fontWeight:'900', fontSize:'1.7rem'}}>DAMP</a></Link></li>
+            <li onClick={handleNavLinkClick}> <Link to="/imp-docs"><a className="nav-link scrollto" href=""  style={{ fontFamily: "'Rubik Scribble', system-ui" , fontWeight:'900', fontSize:'1.7rem'}}>Imp. Docs</a></Link></li>
+            <li onClick={handleNavLinkClick}> <Link to="/timetable"><a className="nav-link scrollto" href="" style={{ fontFamily: "'Rubik Scribble', system-ui" , fontWeight:'900', fontSize:'1.7rem'}}>Time-Table</a></Link></li>
+            <li onClick={handleNavLinkClick}> <Link to="/confession"><a className="nav-link scrollto" href="" style={{ fontFamily: "'Rubik Scribble', system-ui" , fontWeight:'9 00', fontSize:'1.7rem'}}>Confession</a></Link></li>
+            <li onClick={handleNavLinkClick}> <Link to="/editorial"><a className="nav-link scrollto" href="" style={{ fontFamily: "'Rubik Scribble', system-ui" , fontWeight:'900', fontSize:'1.7rem'}}>Editorial</a></Link></li>
           </ul>
           <i className="bi bi-list mobile-nav-toggle" onClick={handleMobileNavToggle} ></i>
         </nav>
