@@ -47,7 +47,7 @@ const Navbar = () => {
 
             <li onClick={handleNavLinkClick}><Link to="/resources"><a className="nav-link scrollto" href="" style={{ fontFamily: "'Rubik Scribble', system-ui" , fontWeight:'900', fontSize:'1.7rem'}}>Resources</a></Link></li>
            
-            <li onClick={handleNavLinkClick}> <Link to="/imp-docs"><a className="nav-link scrollto" href="" style={{ fontFamily: "'Rubik Scribble', system-ui" , fontWeight:'900', fontSize:'1.7rem'}}>IMP-DOCS</a></Link></li>
+            <li onClick={handleNavLinkClick}> <Link to="/imp-docs"><a className="nav-link scrollto" href="" style={{ fontFamily: "'Rubik Scribble', system-ui" , fontWeight:'900', fontSize:'1.7rem'}}>Imp. Docs</a></Link></li>
             <li onClick={handleNavLinkClick}> <Link to="/timetable"><a className="nav-link scrollto" href="" style={{ fontFamily: "'Rubik Scribble', system-ui" , fontWeight:'900', fontSize:'1.7rem'}}>Time-Table</a></Link></li>
             <li onClick={handleNavLinkClick}> <Link to="/confession"><a className="nav-link scrollto" href="" style={{ fontFamily: "'Rubik Scribble', system-ui" , fontWeight:'900', fontSize:'1.7rem'}}>Confession</a></Link></li>
             <li onClick={handleNavLinkClick}> <Link to="/feedback"><a className="nav-link scrollto" href="" style={{ fontFamily: "'Rubik Scribble', system-ui" , fontWeight:'900', fontSize:'1.7rem'}}>Feedback</a></Link></li>
