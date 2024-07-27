@@ -28,6 +28,8 @@ import Keshav from "../../img/images/keshav.JPG"
 import Manish from "../../img/images/manish.jpg"
 import Pratham from "../../img/images/pratham.jpg"
 import Himanshu from "../../img/images/himanshu.jpg"
+import Harshita from "../../img/images/harshita.jpg"
+import Pranjal from "../../img/images/pranjal.jpg"
 
 
 import t1 from "../../img/images/t1.jpeg"
@@ -63,12 +65,12 @@ const Team = () => {
 				<div className='team_' data-aos="zoom-in">
 					<img src={Bhushan}></img>
 					<h2>Bhushan Khandare</h2>
-					<p>Chief Secretary of Events and Execution</p>
+					<p>Chief Secretary Events and Execution</p>
 				</div>
 				<div className='team_' data-aos="zoom-in">
 					<img src={Tanmay}></img>
 					<h2>Tanmay Kulkarni</h2>
-					<p>Chief Secretary of Academic Affairs</p>
+					<p>Chief Secretary Academic Affairs</p>
 				</div>
 				<div className='team_' data-aos="zoom-in">
 					<img src={Himanshu}></img>
@@ -158,7 +160,26 @@ const Team = () => {
 					<p>Associate Secretary</p>
 				</div>				
 			</div>
-			
+			<div className='team_head'>
+				
+				<div className='team_' data-aos="zoom-in">
+					<img src={Pranjal}></img>
+					<h2>Pranjal Girhepunje</h2>
+					<p>3rd Year CR</p>
+				</div>
+				<div className='team_' data-aos="zoom-in">
+					<img src={Tanmay}></img>
+					<h2>Tanmay Kulkarni</h2>
+					<p>3rd Year CR</p>
+				</div>
+				<div className='team_' data-aos="zoom-in">
+					<img src={Videh}></img>
+					<h2>Videh Jain</h2>
+					<p>3rd Year CR</p>
+				</div>
+				
+				
+			</div>
 			<div className='team_head'>
 				
 				<div className='team_' data-aos="zoom-in">
@@ -170,6 +191,11 @@ const Team = () => {
 					<img src={Suryansh}></img>
 					<h2>Suryansh Lunkar</h2>
 					<p>4th Year CR</p>
+				</div>
+				<div className='team_' data-aos="zoom-in">
+					<img src={Harshita}></img>
+					<h2>Harshita Agarwal</h2>
+					<p>5th Year CR</p>
 				</div>
 				
 				
