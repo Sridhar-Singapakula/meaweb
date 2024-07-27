@@ -27,6 +27,7 @@ import Rishik from "../../img/images/rishik.png"
 import Keshav from "../../img/images/keshav.JPG"
 import Manish from "../../img/images/manish.jpg"
 import Pratham from "../../img/images/pratham.jpg"
+import Himanshu from "../../img/images/himanshu.jpg"
 
 
 import t1 from "../../img/images/t1.jpeg"
@@ -69,7 +70,11 @@ const Team = () => {
 					<h2>Tanmay Kulkarni</h2>
 					<p>Chief Secretary of Academic Affairs</p>
 				</div>
-				
+				<div className='team_' data-aos="zoom-in">
+					<img src={Himanshu}></img>
+					<h2>Himanshu Sharma</h2>
+					<p>Department Coordinator</p>
+				</div>
 				<div className='team_' data-aos="zoom-in">
 					<img src={Vinay}></img>
 					<h2>Vinay Kumar Tiwari</h2>
