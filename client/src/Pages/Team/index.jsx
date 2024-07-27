@@ -3,27 +3,33 @@ import "./style.css"
 import { useEffect,useState } from 'react';
 import AOS from 'aos';
 import Navbar from '../../components/Navbar'
-import Ameya from "../../img/images/Ameya.jpg"
-import Kush from "../../img/images/Kush.jpeg"
-import Rushi from "../../img/images/Rushi.jpeg"
-import Rishikesh from "../../img/images/rushikeshjagtap.jpg"
-import Mayur from "../../img/images/Mayur Tank.jpg"
-import Ajay from "../../img/images/Ajay.jpg"
-import Kriti from "../../img/images/Kriti A.jpg"
-import Samiksha from "../../img/images/Samiksha.jpg"
-import Jenil from "../../img/images/Jenil.jpeg"
-import Disha from "../../img/images/disha.jfif"
-import Sridhar from "../../img/images/SRIDHAR.jpg"
-import Subram from "../../img/images/Subram.jpg"
-import Manasvi from "../../img/images/Manasvi.jpg"
-import Tanmay from "../../img/images/Tanmay.jpg"
-import Yash from "../../img/images/YASH.jpeg"
-import Siddhant from "../../img/images/Siddhant.jfif"
-import Sharvari from "../../img/images/Sharvari.jpg"
-import Dhriti from "../../img/images/Dhriti.jpeg"
-import Parul from "../../img/images/Parul.jpg"
+
+import Adrika from "../../img/images/adrika.jpeg"
+import Kaavya from "../../img/images/kaavya.jpg"
+import Vaibhav from "../../img/images/vaibhav.jpg"
+import Dhriti from "../../img/images/dhriti.HEIC"
+import Khushi from "../../img/images/khushi.jpg"
+import Aditya from "../../img/images/aditya.jpg"
+import Lakshaditya from "../../img/images/lakshaditya.jpg"
+import Kunsh from "../../img/images/kunsh.jpg"
+import Kriti from "../../img/images/kriti.jpg"
+import Devasish from "../../img/images/devasish.jpg"
+import Sumit from "../../img/images/sumit.jpg"
+import Harish from "../../img/images/harish.png"
+import Lovepreet from "../../img/images/lovepreet.jpg"
+import Suryansh from "../../img/images/suryansh.jpg"
+import Bhushan from "../../img/images/bhushan.JPG"
+import Tanmay from "../../img/images/tanmay.jpg"
+import Meghraj from "../../img/images/meghraj.jpg"
+import Vinay from "../../img/images/vinay.jpeg"
+import Videh from "../../img/images/videh.jpg"
+import Rishik from "../../img/images/rishik.png"
+import Keshav from "../../img/images/keshav.JPG"
+import Manish from "../../img/images/manish.jpg"
+import Pratham from "../../img/images/pratham.jpg"
+
+
 import t1 from "../../img/images/t1.jpeg"
-import t2 from "../../img/images/adrika.jfif"
 
 const Team = () => {
 	useEffect(() => {
@@ -35,116 +41,133 @@ const Team = () => {
   return (
     <div>
         <Navbar/>
-        <h3 className='_h4' style={{marginTop:"80px",textAlign:"center",marginBottom:"-150px"}}>Our Team<span>.</span></h3>
+        <h3 className='_h4' style={{marginTop:"80px",textAlign:"center",marginBottom:"-150px"}}>Our Team<span>:</span></h3>
        
 			<div className='team_head' style={{marginTop:"150px"}}>
 				<div className='team_' data-aos="zoom-in">
-					<img src={Ameya}></img>
-					<h2>Ameya</h2>
+					<img src={Kriti}></img>
+					<h2>Kriti</h2>
 					<p>Dept General Secretary</p>
 				</div>
-				<div className='team_' data-aos="zoom-in">
-					<img src={Kush}></img>
-					<h2>Kush Patil </h2>
-					<p>Chief Secretary</p>
-				</div>
-				<div className='team_' data-aos="zoom-in">
-					<img src={Rushi}></img>
-					<h2>Rushi Modhave</h2>
+			</div>
+			<div className='team_head' >
+				<div className='team_'  data-aos="zoom-in" >
+					<img src={Lovepreet}></img>
+					<h2>Lovepreet Singh</h2>
 					<p>PG Secretary</p>
 				</div>
-				<div className='team_' data-aos="zoom-in">
-					<img src={Rishikesh}></img>
-					<h2>Rushikesh Jagtap</h2>
-					<p>PG Sports Secretary</p>
-				</div>
+				
 			</div>
 			<div className='team_head'>
 				<div className='team_' data-aos="zoom-in">
-					<img src={Mayur}></img>
-					<h2>Mayur Tank</h2>
-					<p>Cultural Secretary</p>
+					<img src={Bhushan}></img>
+					<h2>Bhushan Khandare</h2>
+					<p>Chief Secretary of Events and Execution</p>
 				</div>
-				<div className='team_' data-aos="zoom-in">
-					<img src={Siddhant}></img>
-					<h2>Siddhant Jebale </h2>
-					<p>Associate Secretary</p>
-				</div>
-				<div className='team_' data-aos="zoom-in">
-					<img src={Ajay}></img>
-					<h2>Ajay</h2>
-					<p>Associate Secretary</p>
-				</div>
-				<div className='team_' data-aos="zoom-in">
-					<img src={Kriti}></img>
-					<h2>Kriti A</h2>
-					<p>Academic Secretary</p>
-				</div>
-				<div className='team_' data-aos="zoom-in">
-					<img src={Samiksha}></img>
-					<h2>Samiksha Patel</h2>
-					<p>Senior Editor</p>
-				</div>
-			</div>
-			<div className='team_head'>
-				<div className='team_' data-aos="zoom-in">
-					<img src={Jenil}></img>
-					<h2>Jenil Dayma</h2>
-					<p>Senior Editor</p>
-				</div>
-				<div className='team_' data-aos="zoom-in">
-					<img src={Disha}></img>
-					<h2>Disha Pandey </h2>
-					<p>Senior Editor</p>
-				</div>
-				<div className='team_' data-aos="zoom-in">
-					<img src={Sridhar}></img>
-					<h2>Sridhar Singapakula</h2>
-					<p>Web Secretary</p>
-				</div>
-				<div className='team_' data-aos="zoom-in">
-					<img src={Subram}></img>
-					<h2>Subram Das</h2>
-					<p>Web Secretary</p>
-				</div>
-				<div className='team_' data-aos="zoom-in">
-					<img src={Manasvi}></img>
-					<h2>Manasvi Kushwaha</h2>
-					<p>Sports Secretary</p>
-				</div>
-			</div>
-			<div className='team_head'>
-			
 				<div className='team_' data-aos="zoom-in">
 					<img src={Tanmay}></img>
 					<h2>Tanmay Kulkarni</h2>
+					<p>Chief Secretary of Academic Affairs</p>
+				</div>
+				
+				<div className='team_' data-aos="zoom-in">
+					<img src={Vinay}></img>
+					<h2>Vinay Kumar Tiwari</h2>
+					<p>Department Coordinator</p>
+				</div>
+				<div className='team_' data-aos="zoom-in">
+					<img src={Meghraj}></img>
+					<h2>Meghraj Prajapat</h2>
+					<p>AURAA(PGAC)</p>
+				</div>
+				<div className='team_' data-aos="zoom-in">
+					<img src={Harish}></img>
+					<h2>Harishkumar Gajakosh</h2>
+					<p>PG Cultural Secretary</p>
+				</div>
+				<div className='team_' data-aos="zoom-in">
+					<img src={Sumit}></img>
+					<h2>Sumit Anand</h2>
+					<p>PG Sports Secretary</p>
+				</div>
+				<div className='team_' data-aos="zoom-in">
+					<img src={Manish}></img>
+					<h2>Manish Kumar</h2>
+					<p>PhD Representative</p>
+				</div>
+			</div>
+			<div className='team_head'>
+				<div className='team_' data-aos="zoom-in">
+					<img src={Aditya}></img>
+					<h2>Aditya Udeniya</h2>
+					<p>UG Sports Secretary</p>
+				</div>
+				<div className='team_' data-aos="zoom-in">
+					<img src={Adrika}></img>
+					<h2>Adrika Das </h2>
 					<p>Design Secretary</p>
 				</div>
 				<div className='team_' data-aos="zoom-in">
-					<img src={t1}></img>
-					<h2>Harshavardhan Cheera</h2>
-					<p>Junior Designer</p>
-				</div>
-				<div className='team_' data-aos="zoom-in">
-					<img src={t2}></img>
-					<h2>Adrika Das</h2>
-					<p>Junior Designer</p>
-				</div>
-				<div className='team_' data-aos="zoom-in">
-					<img src={Sharvari}></img>
-					<h2>Sharvari Dhote</h2>
+					<img src={Devasish}></img>
+					<h2>Devasish Behera</h2>
 					<p>Media Secretary</p>
 				</div>
 				<div className='team_' data-aos="zoom-in">
 					<img src={Dhriti}></img>
-					<h2>Dhriti Maniar</h2>
-					<p>MEME Junior Editor</p>
+					<h2>Dhriti Singh</h2>
+					<p>Senior Editor</p>
 				</div>
 				<div className='team_' data-aos="zoom-in">
-					<img src={Parul}></img>
-					<h2>Parul Diwan</h2>
-					<p>MEME Juniour Editor</p>
+					<img src={Kaavya}></img>
+					<h2> Kaavya Vasu</h2>
+					<p>2nd Year CR</p>
 				</div>
+				<div className='team_' data-aos="zoom-in">
+					<img src={Keshav}></img>
+					<h2>Keshav Goyal</h2>
+					<p>Associate Secretary</p>
+				</div>
+				<div className='team_' data-aos="zoom-in">
+					<img src={Khushi}></img>
+					<h2>Khushi Sharma </h2>
+					<p>Second Year CR</p>
+				</div>
+				<div className='team_' data-aos="zoom-in">
+					<img src={Kunsh}></img>
+					<h2>Kunsh Nyati</h2>
+					<p>2nd Year CR</p>
+				</div>
+				<div className='team_' data-aos="zoom-in">
+					<img src={Lakshaditya}></img>
+					<h2>Lakshaditya Singh</h2>
+					<p>Web Secretary</p>
+				</div>
+				<div className='team_' data-aos="zoom-in">
+					<img src={Rishik}></img>
+					<h2> Rishik Yadav</h2>
+					<p>Alumni Secretary</p>
+				</div>
+				<div className='team_' data-aos="zoom-in">
+					<img src={Vaibhav}></img>
+					<h2> Vaibhav Patil</h2>
+					<p>Associate Secretary</p>
+				</div>				
+			</div>
+			
+			<div className='team_head'>
+				
+				<div className='team_' data-aos="zoom-in">
+					<img src={Pratham}></img>
+					<h2>Pratham Srivastava</h2>
+					<p>4th Year CR</p>
+				</div>
+				<div className='team_' data-aos="zoom-in">
+					<img src={Suryansh}></img>
+					<h2>Suryansh Lunkar</h2>
+					<p>4th Year CR</p>
+				</div>
+				
+				
 			</div>
 
 <div id="footer">
