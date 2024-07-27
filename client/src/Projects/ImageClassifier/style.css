@@ -1,0 +1,60 @@
+.t1{
+    margin-top: 150px;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+
+    /* background: url("../../img/model1.png");
+    background-size: cover; */
+}
+.desc1{
+    max-width:700px;
+}
+.desc1 h4{
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: 550;
+}
+.desc1 p{
+    font-size: 15px;
+    color:rgb(118, 118, 118)
+}
+.desc1_img{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    max-width:700px;
+    object-fit: cover;
+}
+.desc_code{
+    border:none;
+    padding: 20px;
+    color:rgb(88, 88, 88);
+    background-color: rgb(245, 245, 245);
+}
+.area_{
+    flex:8;
+}
+.copy{
+    flex:1;
+}
+.cpy{
+    border: none;
+    background: rgb(221, 220, 220);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.try h4{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.final_img{
+    margin-bottom: 50px;
+    width: 100%;
+    object-fit: cover;
+}
