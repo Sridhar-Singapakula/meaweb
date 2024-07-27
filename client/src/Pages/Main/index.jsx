@@ -31,7 +31,7 @@ import Disha from "../../img/images/Disha.HEIC"
 import Sridhar from "../../img/images/SRIDHAR.jpg"
 import Subram from "../../img/images/Subram.jpg"
 import Manasvi from "../../img/images/Manasvi.jpg"
-import Tanmay from "../../img/images/Tanmay.jpg"
+//import Tanmay from "../../img/images/Tanmay.jpg"
 import Yash from "../../img/images/YASH.jpeg"
 
 import p1 from "../../img/images/p1.jpg"
