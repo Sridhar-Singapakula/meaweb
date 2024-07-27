@@ -137,7 +137,7 @@ const Team = () => {
 				<div className='team_' data-aos="zoom-in">
 					<img src={Khushi}></img>
 					<h2>Khushi Sharma </h2>
-					<p>Second Year CR</p>
+					<p>2nd Year CR</p>
 				</div>
 				<div className='team_' data-aos="zoom-in">
 					<img src={Kunsh}></img>
