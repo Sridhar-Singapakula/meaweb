@@ -113,20 +113,19 @@ const Main = () => {
     </section>
     <section style={{marginBottom:"100px",marginTop:"-50px"}}>
     <h4 className="_h4" style={{textAlign:"center"}}>Editorial</h4>
-    <div className="_editorial">
-      <div >
-        <img className="editimg" src={magazine}>
-        </img>
-        <h6 className="_h4" style={{textAlign:"center",fontSize:"15px",color:"white"}}>Magazine 2022</h6>
-        <button className="button-65"><a href="https://drive.google.com/file/d/1desQ3-9HsoT0_tD6EmCf_bmMcqKITXLd/view?usp=drivesdk">Read More</a></button>
-      </div>
-      <div>
-        <img className="editimg" src={newsletter}>
-        </img>
-        <h6 className="_h4" style={{textAlign:"center",fontSize:"15px",color:"white"}}>Newsletter 2023-24</h6>
-        <button className="button-65"><a href="https://drive.google.com/file/d/1dYTYud033KYNElQJtVqzbsp9VQYNlXJi/view?usp=drivesdk">Read More</a></button>
+    <h6 style={{textAlign:"center",fontSize:"15px",color:"white"}}> Freshmen Introductory Booklet 24-25</h6>
 
-      </div>
+    <div className="_editorial">
+    
+    <iframe
+        allowFullScreen="allowfullscreen"
+        scrolling="no"
+        className="fp-iframe"
+        style={{ border: "1px solid lightgray", width: "800px", height: "600px" }}
+        src="/flipbook.html"  // Correct path
+        title="Flip Book Viewer"
+></iframe>
+      
     </div>
     </section>
     <section className="photo_gallery" data-aos="zoom-in">
