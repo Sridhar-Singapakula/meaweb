@@ -107,7 +107,9 @@ const Main = () => {
             <h1>Hello,Welcome!<br/>Mechanical Engineering Association</h1>
             <h2>IIT Bombay</h2>
             <p style={{fontSize:"20px",color:"white",marginTop:"30px",marginBottom:"-50px"}}>Follow Us</p>
-            <a href="https://www.instagram.com/mea_iitb/" className="instagram" style={{color:"#c13584"}}>  <i class="bi bi-instagram"> </i> </a>
+            <a href="https://www.instagram.com/mea_iitb/" className="instagram" style={{color:"#c13584"}}>  <i class="bi bi-instagram"></i> </a>
+            <a href="https://youtube.com/@meaiitbombay?si=598O6mEUT0n6QOju" className="instagram" style={{color:"#FF0000"}}>  <i class="bi bi-youtube"></i> </a>
+            <a href="https://www.linkedin.com/company/mea-iit-bombay-linked/" className="instagram" style={{color:"#0A66C2"}}>  <i class="bi bi-linkedin"></i> </a>
           </div>
       </div>
     </section>
@@ -158,8 +160,8 @@ const Main = () => {
           <h3 style={{color:"#DAC0A3"}}>MEA IIT Bombay<span>.</span></h3>
           <p>
           IIT Bombay<br />
-          Maharashtra 440010<br /><br />
-            <strong>Phone:</strong> +91  77109 63432<br />
+          Maharashtra 400076<br /><br />
+            <strong>Phone:</strong> +91  63800 85819<br />
             <strong>Email:</strong> gsec@me.iitb.ac.in<br />
           </p>
         </div>

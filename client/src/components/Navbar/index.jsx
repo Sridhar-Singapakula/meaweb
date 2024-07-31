@@ -49,8 +49,7 @@ const Navbar = () => {
            
             <li onClick={handleNavLinkClick}> <Link to="/imp-docs"><a className="nav-link scrollto" href="" style={{fontFamily: "'Roboto', sans-serif" , fontWeight:'900', fontSize:'1.7rem'}}> Docs</a></Link></li>
             
-            <li onClick={handleNavLinkClick} >
-            <Link to="/team"><a className="nav-link scrollto" href="" style={{ fontFamily: "'Roboto', sans-serif" , fontWeight:'900', fontSize:'1.7rem'}}>Team</a></Link>
+            <li onClick={handleNavLinkClick} ><Link to="/team"><a className="nav-link scrollto" href="" style={{ fontFamily: "'Roboto', sans-serif" , fontWeight:'900', fontSize:'1.7rem'}}>Team</a></Link>
             </li>
             <li onClick={handleNavLinkClick}> <Link to="/gallery"><a className="nav-link scrollto" href="" style={{ fontFamily: "'Roboto', sans-serif" , fontWeight:'900', fontSize:'1.7rem'}}>Gallery</a></Link></li>
             <li onClick={handleNavLinkClick} className="damp"><a className="nav-link scrollto" href="https://mechdampiitb.github.io/" style={{ fontFamily: "'Roboto', sans-serif" , fontWeight:'900', fontSize:'1.7rem'}}>DAMP</a></li>
