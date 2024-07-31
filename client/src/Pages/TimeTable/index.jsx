@@ -48,7 +48,7 @@ const Timetable = () => {
 
                                 <p>
                                     IIT Bombay<br />
-                                    Maharashtra 440010<br /><br />
+                                    Maharashtra 400076<br /><br />
                                     <strong>Phone:</strong> +91 712-2461355<br />
                                     <strong>Email:</strong> info@gmail.com<br />
                                 </p>
@@ -57,12 +57,12 @@ const Timetable = () => {
                             <div className="col-lg-2 col-md-6 footer-links">
                                 <h4>Useful Links</h4>
                                 <ul>
-                                    <li><i className="bx bx-chevron-right"></i> <a href="/">Moodle</a></li>
-                                    <li><i className="bx bx-chevron-right"></i> <a href="/">CDEEP</a></li>
-                                    <li><i className="bx bx-chevron-right"></i> <a href="/">Webmail</a></li>
-                                    <li><i className="bx bx-chevron-right"></i> <a href="/">External ASC</a></li>
-                                    <li><i className="bx bx-chevron-right"></i> <a href="/">Internal ASC</a></li>
-                                </ul>
+            <li><i className="bx bx-chevron-right"></i> <a href="https://moodle.iitb.ac.in/login/index.php">Moodle</a></li>
+            <li><i className="bx bx-chevron-right"></i> <a href="https://www.cdeep.iitb.ac.in/">CDEEP</a></li>
+            <li><i className="bx bx-chevron-right"></i> <a href="https://webmail.iitb.ac.in/?_task=mail&_mbox=INBOX">Webmail</a></li>
+            <li><i className="bx bx-chevron-right"></i> <a href="https://portal.iitb.ac.in/asc/Login">External ASC</a></li>
+            <li><i className="bx bx-chevron-right"></i> <a href="https://asc.iitb.ac.in/acadmenu/index.jsp">Internal ASC</a></li>
+          </ul>
                             </div>
                         </div>
                     </div>

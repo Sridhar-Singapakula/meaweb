@@ -113,8 +113,8 @@ export const Gallery = () => {
           <h3 style={{color:"#DAC0A3"}}>MEA IIT Bombay<span>.</span></h3>
           <p>
           IIT Bombay<br />
-          Maharashtra 440010<br /><br />
-            <strong>Phone:</strong> +91  77109 63432<br />
+          Maharashtra 400076<br /><br />
+            <strong>Phone:</strong> +91 63800 85819 <br />
             <strong>Email:</strong> gsec@me.iitb.ac.in<br />
           </p>
         </div>
@@ -122,12 +122,12 @@ export const Gallery = () => {
       <div className="col-lg-2 col-md-6 footer-links">
         <h4>Useful Links</h4>
         <ul>
-          <li><i className="bx bx-chevron-right"></i> <a href="/">Moodle</a></li>
-          <li><i className="bx bx-chevron-right"></i> <a href="/">CDEEP</a></li>
-          <li><i className="bx bx-chevron-right"></i> <a href="/">Webmail</a></li>
-          <li><i className="bx bx-chevron-right"></i> <a href="/">External ASC</a></li>
-          <li><i className="bx bx-chevron-right"></i> <a href="/">Internal ASC</a></li>
-        </ul>
+            <li><i className="bx bx-chevron-right"></i> <a href="https://moodle.iitb.ac.in/login/index.php">Moodle</a></li>
+            <li><i className="bx bx-chevron-right"></i> <a href="https://www.cdeep.iitb.ac.in/">CDEEP</a></li>
+            <li><i className="bx bx-chevron-right"></i> <a href="https://webmail.iitb.ac.in/?_task=mail&_mbox=INBOX">Webmail</a></li>
+            <li><i className="bx bx-chevron-right"></i> <a href="https://portal.iitb.ac.in/asc/Login">External ASC</a></li>
+            <li><i className="bx bx-chevron-right"></i> <a href="https://asc.iitb.ac.in/acadmenu/index.jsp">Internal ASC</a></li>
+          </ul>
       </div>
     </div>
   </div>

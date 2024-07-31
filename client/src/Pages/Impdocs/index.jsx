@@ -13,7 +13,7 @@ const impDocs = () => {
   return (
     <div style={{marginTop:"100px",textAlign:"center"}}>
         <Navbar/>
-        <h3 className='_h4'>IMPORTANT DOCUMENTS</h3>
+        <h3 className='_h4'>Important Documents</h3>
         <div className='imp_docs'>
             <div className='docs_'>
                 <a target="_blank" href="https://iitbacin-my.sharepoint.com/personal/190100088_iitb_ac_in/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2F190100088%5Fiitb%5Fac%5Fin%2FDocuments%2FMaster%5FDrive%5FPB%2FImportant%20Documents%2FAcademic%20Calendar%202023%2D24%2Epdf&parent=%2Fpersonal%2F190100088%5Fiitb%5Fac%5Fin%2FDocuments%2FMaster%5FDrive%5FPB%2FImportant%20Documents">
@@ -115,8 +115,8 @@ const impDocs = () => {
           <h3 style={{color:"#DAC0A3"}}>MEA IIT Bombay<span>.</span></h3>
           <p>
           IIT Bombay<br />
-          Maharashtra 440010<br /><br />
-            <strong>Phone:</strong> +91  77109 63432<br />
+          Maharashtra 400076<br /><br />
+            <strong>Phone:</strong> +91  63800 85819<br />
             <strong>Email:</strong> gsec@me.iitb.ac.in<br />
           </p>
         </div>
@@ -124,12 +124,12 @@ const impDocs = () => {
       <div className="col-lg-2 col-md-6 footer-links">
         <h4>Useful Links</h4>
         <ul>
-          <li><i className="bx bx-chevron-right"></i> <a href="/">Moodle</a></li>
-          <li><i className="bx bx-chevron-right"></i> <a href="/">CDEEP</a></li>
-          <li><i className="bx bx-chevron-right"></i> <a href="/">Webmail</a></li>
-          <li><i className="bx bx-chevron-right"></i> <a href="/">External ASC</a></li>
-          <li><i className="bx bx-chevron-right"></i> <a href="/">Internal ASC</a></li>
-        </ul>
+            <li><i className="bx bx-chevron-right"></i> <a href="https://moodle.iitb.ac.in/login/index.php">Moodle</a></li>
+            <li><i className="bx bx-chevron-right"></i> <a href="https://www.cdeep.iitb.ac.in/">CDEEP</a></li>
+            <li><i className="bx bx-chevron-right"></i> <a href="https://webmail.iitb.ac.in/?_task=mail&_mbox=INBOX">Webmail</a></li>
+            <li><i className="bx bx-chevron-right"></i> <a href="https://portal.iitb.ac.in/asc/Login">External ASC</a></li>
+            <li><i className="bx bx-chevron-right"></i> <a href="https://asc.iitb.ac.in/acadmenu/index.jsp">Internal ASC</a></li>
+          </ul>
       </div>
     </div>
   </div>
