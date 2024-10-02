@@ -6,31 +6,42 @@ import newsjpg from '../../assets/images/newsletter-1_page-0001.jpg'
 
 const MagazinePage = () => {
 
-  const magazinePdfUrl = 'https://drive.google.com/file/d/1desQ3-9HsoT0_tD6EmCf_bmMcqKITXLd/view?usp=drivesdk';
-
   return (
-    <div className="section">
-      <h2>Magazine</h2>
-      <a href={magazinePdfUrl} target="_blank" rel="noopener noreferrer">
-        <img src={magjpg} alt="Magazine Thumbnail" />
-      </a>
+
+  <section style={{marginBottom:"100px",marginTop:"-50px"}}>
+    <h4 className="_h4" style={{textAlign:"center"}}>Editorial</h4>
+    <h6 style={{textAlign:"center",fontSize:"15px",color:"white"}}> Freshmen Introductory Booklet 24-25</h6>
+
+    <div className="_editorial">
+    
+    <iframe
+        allowFullScreen="allowfullscreen"
+        scrolling="no"
+        className="fp-iframe"
+        style={{  width: "800px", height: "600px" }}
+        src="/freshmenbooklet.html"  // Correct path
+        title="Flip Book Viewer"
+    ></iframe>
+      
     </div>
+    <h6 style={{textAlign:"center",fontSize:"15px",color:"white"}}>Mechanical Department Handbook</h6>
+
+    <div className="_editorial">
+    
+    <iframe
+        allowFullScreen="allowfullscreen"
+        scrolling="no"
+        className="fp-iframe"
+        style={{  width: "800px", height: "600px" }}
+        src="/departmentbooklet.html"  // Correct path
+        title="Flip Book Viewer"
+    ></iframe>
+      
+    </div>
+    </section>
   );
 };
 
-const NewsletterPage = () => {
-  // Replace 'newsletter.pdf' with the actual URL/path of your newsletter PDF file
-  const newsletterPdfUrl = 'https://drive.google.com/file/d/1dYTYud033KYNElQJtVqzbsp9VQYNlXJi/view?usp=drivesdk';
-
-  return (
-    <div className="section">
-      <h2>Newsletter</h2>
-      <a href={newsletterPdfUrl} target="_blank" rel="noopener noreferrer">
-        <img src={newsjpg} alt="Newsletter Thumbnail" />
-      </a>
-    </div>
-  );
-};
 
 export const Editorial = () => {
   return (
@@ -38,7 +49,6 @@ export const Editorial = () => {
         <Navbar/>
         <div className="container">
             <MagazinePage />
-            <NewsletterPage />
         </div>
         
     </div>

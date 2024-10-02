@@ -2,13 +2,15 @@ import { useDispatch, useSelector } from "react-redux";
 import { useHistory, Link } from "react-router-dom";
 import AOS from 'aos';
 import { useEffect,useState } from 'react';
+import {  NavLink } from "react-router-dom";
+
 import logo from "../../img/images/logo.png"
 import "./style.css";
 
 
 
 const Navbar = () => {
-	const [menu, setMenu] = useState(false);
+	const [menuOpen, setMenuOpen] = useState(false);
 
 	const [isMobileNavOpen, setIsMobileNavOpen] = useState(false); 
 
@@ -19,15 +21,7 @@ const Navbar = () => {
     const handleNavLinkClick = () => {
       setIsMobileNavOpen(false);
     };
-    const sliderSettings = {
-        dots: true,
-        autoplay: true,
-        autoplaySpeed: 2000, // Set the interval between slides (in milliseconds)
-      };
-      useEffect(() => {
-        AOS.init();
-        
-      }, []);
+  
 
 	return (
 	<header id="header" className="fixed-top d-flex align-items-center">
@@ -43,15 +37,16 @@ const Navbar = () => {
         <nav id="navbar" className={`navbar order-last order-lg-0 ${isMobileNavOpen ? 'mobile-nav-open' : ''}`}>
           
           <ul>
-            <li onClick={handleNavLinkClick}><Link to="/"><a className="nav-link scrollto active" href="" style={{ fontFamily: "'Roboto', sans-serif" , fontWeight:'900', fontSize:'1.7rem'}}>Home</a></Link></li>
+            <li onClick={handleNavLinkClick}><NavLink to="/"><a className="nav-link scrollto active" href="" style={{ fontFamily: "'Roboto', sans-serif" , fontWeight:'900', fontSize:'1.7rem'}}>Home</a></NavLink></li>
 
-            <li onClick={handleNavLinkClick}><Link to="/resources"><a className="nav-link scrollto" href="" style={{fontFamily: "'Roboto', sans-serif" , fontWeight:'900', fontSize:'1.7rem'}}>Resources</a></Link></li>
+            <li onClick={handleNavLinkClick}><NavLink to="/resources"><a className="nav-link scrollto" href="" style={{fontFamily: "'Roboto', sans-serif" , fontWeight:'900', fontSize:'1.7rem'}}>Resources</a></NavLink></li>
+            <li onClick={handleNavLinkClick}><NavLink to="/editorial"><a className="nav-link scrollto" href="" style={{fontFamily: "'Roboto', sans-serif" , fontWeight:'900', fontSize:'1.7rem'}}>Editorial</a></NavLink></li>
            
-            <li onClick={handleNavLinkClick}> <Link to="/imp-docs"><a className="nav-link scrollto" href="" style={{fontFamily: "'Roboto', sans-serif" , fontWeight:'900', fontSize:'1.7rem'}}> Docs</a></Link></li>
+            <li onClick={handleNavLinkClick}> <NavLink to="/imp-docs"><a className="nav-link scrollto" href="" style={{fontFamily: "'Roboto', sans-serif" , fontWeight:'900', fontSize:'1.7rem'}}> Docs</a></NavLink></li>
             
-            <li onClick={handleNavLinkClick} ><Link to="/team"><a className="nav-link scrollto" href="" style={{ fontFamily: "'Roboto', sans-serif" , fontWeight:'900', fontSize:'1.7rem'}}>Team</a></Link>
+            <li onClick={handleNavLinkClick} ><NavLink to="/team"><a className="nav-link scrollto" href="" style={{ fontFamily: "'Roboto', sans-serif" , fontWeight:'900', fontSize:'1.7rem'}}>Team</a></NavLink>
             </li>
-            <li onClick={handleNavLinkClick}> <Link to="/gallery"><a className="nav-link scrollto" href="" style={{ fontFamily: "'Roboto', sans-serif" , fontWeight:'900', fontSize:'1.7rem'}}>Gallery</a></Link></li>
+            <li onClick={handleNavLinkClick}> <NavLink to="/gallery"><a className="nav-link scrollto" href="" style={{ fontFamily: "'Roboto', sans-serif" , fontWeight:'900', fontSize:'1.7rem'}}>Gallery</a></NavLink></li>
             <li onClick={handleNavLinkClick} className="damp"><a className="nav-link scrollto" href="https://mechdampiitb.github.io/" style={{ fontFamily: "'Roboto', sans-serif" , fontWeight:'900', fontSize:'1.7rem'}}>DAMP</a></li>
           </ul>
           <i className="bi bi-list mobile-nav-toggle" onClick={handleMobileNavToggle} ></i>

@@ -78,16 +78,6 @@ const Team = () => {
 					<p>Department Coordinator</p>
 				</div>
 				<div className='team_' data-aos="zoom-in">
-					<img src={Vinay}></img>
-					<h2>Vinay Kumar Tiwari</h2>
-					<p>Department Coordinator</p>
-				</div>
-				<div className='team_' data-aos="zoom-in">
-					<img src={Meghraj}></img>
-					<h2>Meghraj Prajapat</h2>
-					<p>AURAA(PGAC)</p>
-				</div>
-				<div className='team_' data-aos="zoom-in">
 					<img src={Harish}></img>
 					<h2>Harishkumar Gajakosh</h2>
 					<p>PG Cultural Secretary</p>
@@ -97,6 +87,17 @@ const Team = () => {
 					<h2>Sumit Anand</h2>
 					<p>PG Sports Secretary</p>
 				</div>
+				<div className='team_' data-aos="zoom-in">
+					<img src={Vinay}></img>
+					<h2>Vinay Kumar Tiwari</h2>
+					<p>Department Coordinator</p>
+				</div>
+				<div className='team_' data-aos="zoom-in">
+					<img src={Meghraj}></img>
+					<h2>Meghraj Prajapat</h2>
+					<p>AURAA(PGAC)</p>
+				</div>
+				
 				<div className='team_' data-aos="zoom-in">
 					<img src={Manish}></img>
 					<h2>Manish Kumar</h2>
