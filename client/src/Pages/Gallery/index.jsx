@@ -137,8 +137,8 @@ export const Gallery = () => {
   <div className="container d-md-flex py-4">
       <div className="me-md-auto text-center text-md-start">
       <div className="copyright">
-             &copy; created by--Subram & Sridhar <strong><span>MEA IIT Bombay</span></strong>
-            </div>
+      &copy; created by--Subram & Sridhar | managed by--Lakshaditya <strong><span>MEA IIT Bombay</span></strong>
+      </div>
 
       </div>
      
