@@ -8,7 +8,7 @@ import { useEffect,useState } from 'react';
 import {useDispatch} from "react-redux";
 import Slider from 'react-slick';
 import { BrowserRouter } from "react-router-dom";
-import ReactDOM from "react-dom/client";
+
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import 'aos/dist/aos.css'
