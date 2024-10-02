@@ -7,6 +7,8 @@ import Joi from "joi"
 import { useEffect,useState } from 'react';
 import {useDispatch} from "react-redux";
 import Slider from 'react-slick';
+import { BrowserRouter } from "react-router-dom";
+import ReactDOM from "react-dom/client";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import 'aos/dist/aos.css'
@@ -113,23 +115,8 @@ const Main = () => {
           </div>
       </div>
     </section>
-    <section style={{marginBottom:"100px",marginTop:"-50px"}}>
-    <h4 className="_h4" style={{textAlign:"center"}}>Editorial</h4>
-    <h6 style={{textAlign:"center",fontSize:"15px",color:"white"}}> Freshmen Introductory Booklet 24-25</h6>
 
-    <div className="_editorial">
     
-    <iframe
-        allowFullScreen="allowfullscreen"
-        scrolling="no"
-        className="fp-iframe"
-        style={{ border: "1px solid lightgray", width: "800px", height: "600px" }}
-        src="/flipbook.html"  // Correct path
-        title="Flip Book Viewer"
-></iframe>
-      
-    </div>
-    </section>
     <section className="photo_gallery" data-aos="zoom-in">
       <h4 className="_h4" style={{textAlign:"center"}}>Events</h4>
      <Slider {...sliderSettings} style={{textAlign:"center"}}>
