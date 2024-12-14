@@ -66,10 +66,15 @@ const Team = () => {
                 <p>She’ll make sure you’re well-fed and listen to your stories as if they’re the most important thing in the world, because to her, they are.</p>
             </div>
             <div className='social-icons'>
-                <a href="/" className="linkedin" style={{color:"#0A66C2"}}><i class="bi bi-linkedin"></i></a>
-                <a href="https://github.com/" className="instagram" style={{color:"#c13584"}}><i class="bi bi-instagram"></i></a>
-                <a href="/" className="email" style={{color:"#0A66C2"}}><i class="bi bi-envelope"></i></a>
-            </div>
+            {/* <a href="https://linkedin.com/in/preetlovi" className="linkedin" style={{color:"#0A66C2"}}>
+                <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="https://www.instagram.com/_preet_lovi?igsh=MTh0cmtkMnZoODJkcA%3D%3D&utm_source=qr" className="instagram" style={{color:"#c13584"}}>
+                <i class="bi bi-instagram"></i>
+            </a> */}
+            <a href="mailto:210100083@iitb.ac.in" className="email" style={{color:"#0A66C2"}}>
+                <i class="bi bi-envelope"></i>
+            </a></div>
         </div>
     </div>
 </div>
