@@ -7,7 +7,7 @@ import Navbar from '../../components/Navbar'
 import Adrika from "../../img/images/adrika.jpeg"
 import Kaavya from "../../img/images/kaavya.jpg"
 import Vaibhav from "../../img/images/vaibhav.jpg"
-import Dhriti from "../../img/images/dhriti.HEIC"
+import Dhriti from "../../img/images/dhriti.jpg"
 import Khushi from "../../img/images/khushi.jpg"
 import Aditya from "../../img/images/aditya.jpg"
 import Lakshaditya from "../../img/images/lakshaditya.jpg"
