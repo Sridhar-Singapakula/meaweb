@@ -23,7 +23,7 @@ const Navbar = () => {
 
   const navItems = [
     { path: "/", label: "Home" },
-    { path: "/resources", label: "Resources" },
+    //{ path: "/resources", label: "Resources" },
     // { path: "/blogs", label: "Blogs" },
     { path: "/editorial", label: "Editorial" },
     { path: "/imp-docs", label: "Docs" },
