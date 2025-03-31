@@ -23,8 +23,9 @@ const Navbar = () => {
 
   const navItems = [
     { path: "/", label: "Home" },
-    //{ path: "/resources", label: "Resources" },
+    // { path: "/resources", label: "Resources" },
     // { path: "/blogs", label: "Blogs" },
+    { path: "/Labs", label: "Labs" },
     { path: "/editorial", label: "Editorial" },
     { path: "/imp-docs", label: "Docs" },
     { path: "/team", label: "Team" },

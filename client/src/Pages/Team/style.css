@@ -246,8 +246,7 @@
     font-weight: 400;
     font-style: normal;
     margin-bottom: 10px;
-    padding-right: 10px;
-
+	padding-right: 10px;
 
     /* For Firefox */
     scrollbar-width: thin; /* Options: auto, thin, none */

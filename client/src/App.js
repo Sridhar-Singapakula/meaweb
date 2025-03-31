@@ -6,6 +6,8 @@ import NotFound from "./Pages/NotFound"
 import Team from "./Pages/Team";
 import impDocs from "./Pages/Impdocs";
 import Resources from "./Pages/Resources";
+import Blogs from "./Pages/Blogs";
+import Labs from "./Pages/Labs";
 
 import Timetable from "./Pages/TimeTable";
 import Loading from "./Pages/Loading/loading";
@@ -34,7 +36,8 @@ const App = () => {
 				<Route exact path="/" component={Main} />
 				<Route exact path="/imp-docs" component={impDocs}/>
 				<Route path="/resources" component={Resources}/>
-				
+				<Route path="/Blogs" component={Blogs}/>
+				<Route path="/Labs" component={Labs}/>
 				<Route path="/team" component={Team}/>
 				<Route path="/timetable" component={Timetable}/>
 				<Route path="/editorial" component={Editorial}/>

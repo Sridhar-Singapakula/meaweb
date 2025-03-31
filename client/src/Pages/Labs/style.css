@@ -72,7 +72,6 @@ th {
 .dt-length label,
 .dt-search label {
   margin-left: 5px;
-  color: black; /* Set label text color to black */
 }
 
 .dt-input {
@@ -92,3 +91,6 @@ th {
     min-width: 50px; /* Reduced width */
 }
 
+.dt-layout-row{
+  color: black;
+}
