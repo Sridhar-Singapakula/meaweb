@@ -1,0 +1,94 @@
+/* Ensure background remains consistent */
+body {
+  color: #e2dfdf;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevents horizontal scrolling of the entire page */
+}
+
+/* Make table scrollable on small screens */
+.table-responsive {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  background: white; /* Keeps table background white */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Ensure the table does not shrink too much */
+table {
+  width: 90%; /* Adjust percentage as needed */
+  margin: 0 auto; /* Center the table if desired */ 
+  min-width: 600px; /* Prevents table from getting too narrow */
+  border-collapse: collapse;
+  background: white; /* Keeps the table background white */
+}
+
+/* Table header styling */
+th {
+  background-color: #fcb424;
+  white-space: nowrap; /* Prevents text from wrapping in headers */
+}
+
+/* Pagination styles */
+.pagination .page-item.active .page-link,
+.pagination .page-item.active .page-link:focus,
+.pagination .page-item.active .page-link:hover {
+  background-color: #fcb424;
+  border-color: #fcb424;
+}
+
+/* Ensuring body background remains intact */
+.table-container {
+  background-color: black;
+  padding: 20px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+#footer {
+  border-top: 1px solid gray;
+}
+
+.dt-layout-row:first-of-type {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.dt-layout-cell {
+  display: flex;
+  align-items: center;
+}
+
+.dt-length,
+.dt-search {
+  display: flex;
+  align-items: center;
+}
+
+.dt-length label,
+.dt-search label {
+  margin-left: 5px;
+  color: black; /* Set label text color to black */
+}
+
+.dt-input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: black; /* Set input/select text color to black */
+}
+
+/* Optional: Adjust width of search input */
+.dt-search input {
+  width: 150px; /* Reduced width */
+}
+
+/* Optional: Adjust width of entries per page select */
+.dt-length select {
+    min-width: 50px; /* Reduced width */
+}
+
